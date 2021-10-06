@@ -1,0 +1,84 @@
+<HTML>
+<HEAD>
+<TITLE>SplashBoard.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/SplashBoard.framework
+26 classes
+
+<A HREF="/tree/PrivateFrameworks/SplashBoard.framework/XBApplicationController.h">XBApplicationController.h</A>
+<A HREF="/tree/PrivateFrameworks/SplashBoard.framework/XBApplicationDataStore.h">XBApplicationDataStore.h</A>
+<A HREF="/tree/PrivateFrameworks/SplashBoard.framework/XBApplicationLaunchCompatibilityInfo.h">XBApplicationLaunchCompatibilityInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/SplashBoard.framework/XBApplicationSnapshot.h">XBApplicationSnapshot.h</A>
+<A HREF="/tree/PrivateFrameworks/SplashBoard.framework/XBApplicationSnapshotFetchRequest.h">XBApplicationSnapshotFetchRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/SplashBoard.framework/XBApplicationSnapshotGenerationContext.h">XBApplicationSnapshotGenerationContext.h</A>
+<A HREF="/tree/PrivateFrameworks/SplashBoard.framework/XBApplicationSnapshotGroup.h">XBApplicationSnapshotGroup.h</A>
+<A HREF="/tree/PrivateFrameworks/SplashBoard.framework/XBApplicationSnapshotImage.h">XBApplicationSnapshotImage.h</A>
+<A HREF="/tree/PrivateFrameworks/SplashBoard.framework/XBApplicationSnapshotManifest.h">XBApplicationSnapshotManifest.h</A>
+<A HREF="/tree/PrivateFrameworks/SplashBoard.framework/XBApplicationSnapshotManifestImpl.h">XBApplicationSnapshotManifestImpl.h</A>
+<A HREF="/tree/PrivateFrameworks/SplashBoard.framework/XBApplicationSnapshotPredicate.h">XBApplicationSnapshotPredicate.h</A>
+<A HREF="/tree/PrivateFrameworks/SplashBoard.framework/XBApplicationSnapshotSortDescriptor.h">XBApplicationSnapshotSortDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/SplashBoard.framework/XBDisplaySnapshot.h">XBDisplaySnapshot.h</A>
+<A HREF="/tree/PrivateFrameworks/SplashBoard.framework/XBDisplaySnapshotLayer.h">XBDisplaySnapshotLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/SplashBoard.framework/XBLaunchImage.h">XBLaunchImage.h</A>
+<A HREF="/tree/PrivateFrameworks/SplashBoard.framework/XBLaunchImageDataProvider.h">XBLaunchImageDataProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/SplashBoard.framework/XBLaunchImageError.h">XBLaunchImageError.h</A>
+<A HREF="/tree/PrivateFrameworks/SplashBoard.framework/XBLaunchImageProvider.h">XBLaunchImageProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/SplashBoard.framework/XBLaunchImageProviderClient.h">XBLaunchImageProviderClient.h</A>
+<A HREF="/tree/PrivateFrameworks/SplashBoard.framework/XBLaunchInterface.h">XBLaunchInterface.h</A>
+<A HREF="/tree/PrivateFrameworks/SplashBoard.framework/XBLaunchStateRequest.h">XBLaunchStateRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/SplashBoard.framework/XBMutableStatusBarSettings.h">XBMutableStatusBarSettings.h</A>
+<A HREF="/tree/PrivateFrameworks/SplashBoard.framework/XBSnapshotContainerIdentity.h">XBSnapshotContainerIdentity.h</A>
+<A HREF="/tree/PrivateFrameworks/SplashBoard.framework/XBSnapshotDataProviderContext.h">XBSnapshotDataProviderContext.h</A>
+<A HREF="/tree/PrivateFrameworks/SplashBoard.framework/XBSnapshotManifestIdentity.h">XBSnapshotManifestIdentity.h</A>
+<A HREF="/tree/PrivateFrameworks/SplashBoard.framework/XBStatusBarSettings.h">XBStatusBarSettings.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

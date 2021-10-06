@@ -1,0 +1,178 @@
+<HTML>
+<HEAD>
+<TITLE>WatchListKit.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/WatchListKit.framework
+120 classes
+
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKAddFavoriteRequest.h">WLKAddFavoriteRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKAddToUpNextRequest.h">WLKAddToUpNextRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKAppInstaller.h">WLKAppInstaller.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKAppLibrary.h">WLKAppLibrary.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKAppLibraryCore.h">WLKAppLibraryCore.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKAppProxy.h">WLKAppProxy.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKAppSettings.h">WLKAppSettings.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKAppSettingsFacade.h">WLKAppSettingsFacade.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKArtworkVariant.h">WLKArtworkVariant.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKArtworkVariantListing.h">WLKArtworkVariantListing.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKAsyncOperation.h">WLKAsyncOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKBackgroundUpdateController.h">WLKBackgroundUpdateController.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKBagContract.h">WLKBagContract.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKBasicContentMetadata.h">WLKBasicContentMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKBasicContentRequestOperation.h">WLKBasicContentRequestOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKBasicContentRequestResponse.h">WLKBasicContentRequestResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKBasicEpisodeMetadata.h">WLKBasicEpisodeMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKBasicMovieMetadata.h">WLKBasicMovieMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKBasicSeasonMetadata.h">WLKBasicSeasonMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKBasicShowMetadata.h">WLKBasicShowMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKBasicSportingEventMetadata.h">WLKBasicSportingEventMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKBulletin.h">WLKBulletin.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKBulletinDataProvider.h">WLKBulletinDataProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKBulletinManager.h">WLKBulletinManager.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKBulletinResponse.h">WLKBulletinResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKBulletinStore.h">WLKBulletinStore.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKCache.h">WLKCache.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKCanonicalContainerRequest.h">WLKCanonicalContainerRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKCanonicalContainerRequestOperation.h">WLKCanonicalContainerRequestOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKCanonicalContainerResponse.h">WLKCanonicalContainerResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKCanonicalPlayablesRequest.h">WLKCanonicalPlayablesRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKCanonicalPlayablesRequestOperation.h">WLKCanonicalPlayablesRequestOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKCanonicalPlayablesResponse.h">WLKCanonicalPlayablesResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKChannel.h">WLKChannel.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKChannelDetails.h">WLKChannelDetails.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKChannelUtilities.h">WLKChannelUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKChannelsRequestOperation.h">WLKChannelsRequestOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKChannelsResponse.h">WLKChannelsResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKConfigurationManager.h">WLKConfigurationManager.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKConfigurationRequest.h">WLKConfigurationRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKContentPlayRequest.h">WLKContentPlayRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKContentPlayRequestOperation.h">WLKContentPlayRequestOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKContentPlayResponse.h">WLKContentPlayResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKContentRating.h">WLKContentRating.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKContinuationMetadata.h">WLKContinuationMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKContinueWatchingCollection.h">WLKContinueWatchingCollection.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKContinueWatchingRequest.h">WLKContinueWatchingRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKContinueWatchingRequestOperation.h">WLKContinueWatchingRequestOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKContinueWatchingResponse.h">WLKContinueWatchingResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKDictionaryResponseProcessor.h">WLKDictionaryResponseProcessor.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKEvent.h">WLKEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKExternalMediaContentManager.h">WLKExternalMediaContentManager.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKFavorite.h">WLKFavorite.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKFavoritesModificationRequestOperation.h">WLKFavoritesModificationRequestOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKFavoritesRequest.h">WLKFavoritesRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKFavoritesRequestOperation.h">WLKFavoritesRequestOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKGenre.h">WLKGenre.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKLocale.h">WLKLocale.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKLocationManager.h">WLKLocationManager.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKLookupBasedInstallable.h">WLKLookupBasedInstallable.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKManagedConfigurationInterface.h">WLKManagedConfigurationInterface.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKMarkAsWatchedRequestOperation.h">WLKMarkAsWatchedRequestOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKMescal.h">WLKMescal.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKMovieClip.h">WLKMovieClip.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKMovieClipAsset.h">WLKMovieClipAsset.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKMovieClipPreviewArtwork.h">WLKMovieClipPreviewArtwork.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKMovieContentRating.h">WLKMovieContentRating.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKNetworkRequestOperation.h">WLKNetworkRequestOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKNetworkRequestReauthCoordinator.h">WLKNetworkRequestReauthCoordinator.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKNetworkRequestUtilities.h">WLKNetworkRequestUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKNotificationCenter.h">WLKNotificationCenter.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKNotificationsImpl_iOS.h">WLKNotificationsImpl_iOS.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKOnboarding.h">WLKOnboarding.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKPlayActivityDecorateEBSOperation.h">WLKPlayActivityDecorateEBSOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKPlayActivityDecorateLiveOperation.h">WLKPlayActivityDecorateLiveOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKPlayActivityDecorateVODOperation.h">WLKPlayActivityDecorateVODOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKPlayActivityMetadata.h">WLKPlayActivityMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKPlayEvent.h">WLKPlayEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKPlayHistoryRemoveRequest.h">WLKPlayHistoryRemoveRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKPlayHistoryRemoveRequestOperation.h">WLKPlayHistoryRemoveRequestOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKPlayable.h">WLKPlayable.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKPlayableUtilities.h">WLKPlayableUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKPlaybackReporter.h">WLKPlaybackReporter.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKPlaybackSummary.h">WLKPlaybackSummary.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKPrewarming.h">WLKPrewarming.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKProcessInfo.h">WLKProcessInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKRemoveFavoriteRequest.h">WLKRemoveFavoriteRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKRemoveFromPlayHistoryRequestOperation.h">WLKRemoveFromPlayHistoryRequestOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKRequest.h">WLKRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKRottenTomatoesRating.h">WLKRottenTomatoesRating.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKSchedule.h">WLKSchedule.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKSearchWatchListRequest.h">WLKSearchWatchListRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKSearchWatchListRequestOperation.h">WLKSearchWatchListRequestOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKSearchWatchListResponse.h">WLKSearchWatchListResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKServerConfiguration.h">WLKServerConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKServerConfigurationResponse.h">WLKServerConfigurationResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKSettingsCloudUtilities.h">WLKSettingsCloudUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKSettingsModificationRequestOperation.h">WLKSettingsModificationRequestOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKSettingsRequestOperation.h">WLKSettingsRequestOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKSettingsStore.h">WLKSettingsStore.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKShowContentRating.h">WLKShowContentRating.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKSiriBestPlayableForStatsIDsOperation.h">WLKSiriBestPlayableForStatsIDsOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKSiriBestPlayablesRequest.h">WLKSiriBestPlayablesRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKSiriBestPlayablesResponse.h">WLKSiriBestPlayablesResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKSiriSearchRequest.h">WLKSiriSearchRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKSiriSearchRequestOperation.h">WLKSiriSearchRequestOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKSiriSearchResponse.h">WLKSiriSearchResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKSortedKeyDictionary.h">WLKSortedKeyDictionary.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKStoreOffer.h">WLKStoreOffer.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKStoredConfiguration.h">WLKStoredConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKStoredConfigurationManager.h">WLKStoredConfigurationManager.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKTransactionScope.h">WLKTransactionScope.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKURLBagUtilities.h">WLKURLBagUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKURLRequestProperties.h">WLKURLRequestProperties.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKURLResponseDecoder.h">WLKURLResponseDecoder.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKUTSNetworkRequestOperation.h">WLKUTSNetworkRequestOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKUserEnvironment.h">WLKUserEnvironment.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKWatchListModificationRequestOperation.h">WLKWatchListModificationRequestOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/WLKWatchListModificationResponse.h">WLKWatchListModificationResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/WatchListKit.framework/_WLKAppInstallSession.h">_WLKAppInstallSession.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

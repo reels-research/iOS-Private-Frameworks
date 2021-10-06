@@ -1,0 +1,118 @@
+<HTML>
+<HEAD>
+<TITLE>iCalendar.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/iCalendar.framework
+60 classes
+
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSActionValue.h">ICSActionValue.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSAlarm.h">ICSAlarm.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSAlternateTimeProposal.h">ICSAlternateTimeProposal.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSAlternateTimeProposalStatusParameter.h">ICSAlternateTimeProposalStatusParameter.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSAttachment.h">ICSAttachment.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSAttendeeComment.h">ICSAttendeeComment.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSAvailability.h">ICSAvailability.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSAvailable.h">ICSAvailable.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSBusyStatusValue.h">ICSBusyStatusValue.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSByDayValue.h">ICSByDayValue.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSCalendar.h">ICSCalendar.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSCalendarItem.h">ICSCalendarItem.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSCalendarServerAccessValue.h">ICSCalendarServerAccessValue.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSCalendarUserParameter.h">ICSCalendarUserParameter.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSClassificationValue.h">ICSClassificationValue.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSColor.h">ICSColor.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSComponent.h">ICSComponent.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSConference.h">ICSConference.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSDate.h">ICSDate.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSDateTimeUTCValue.h">ICSDateTimeUTCValue.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSDateTimeValue.h">ICSDateTimeValue.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSDateValue.h">ICSDateValue.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSDocument.h">ICSDocument.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSDuration.h">ICSDuration.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSEvent.h">ICSEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSFreeBusy.h">ICSFreeBusy.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSFreeBusyTime.h">ICSFreeBusyTime.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSFreeBusyTypeParameter.h">ICSFreeBusyTypeParameter.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSJournal.h">ICSJournal.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSLogger.h">ICSLogger.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSMethodValue.h">ICSMethodValue.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSMultiValueProperty.h">ICSMultiValueProperty.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSParser.h">ICSParser.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSParticipationStatusParameter.h">ICSParticipationStatusParameter.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSPeriod.h">ICSPeriod.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSPredefinedValue.h">ICSPredefinedValue.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSProperty.h">ICSProperty.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSRecurrenceRule.h">ICSRecurrenceRule.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSRelationshipTypeParameter.h">ICSRelationshipTypeParameter.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSRoleParameter.h">ICSRoleParameter.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSScheduleAgentParameter.h">ICSScheduleAgentParameter.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSScheduleForceSendParameter.h">ICSScheduleForceSendParameter.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSScheduleStatusParameter.h">ICSScheduleStatusParameter.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSStatusValue.h">ICSStatusValue.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSStringWriter.h">ICSStringWriter.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSStructuredLocation.h">ICSStructuredLocation.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSTimeZone.h">ICSTimeZone.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSTimeZoneBlock.h">ICSTimeZoneBlock.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSTimeZoneChange.h">ICSTimeZoneChange.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSTimeZoneDaylightBlock.h">ICSTimeZoneDaylightBlock.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSTimeZoneStandardBlock.h">ICSTimeZoneStandardBlock.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSTimeZoneTranslator.h">ICSTimeZoneTranslator.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSTodo.h">ICSTodo.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSTokenizer.h">ICSTokenizer.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSTransparencyValue.h">ICSTransparencyValue.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSTravelAdvisoryBehavior.h">ICSTravelAdvisoryBehavior.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSTravelDuration.h">ICSTravelDuration.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSTrigger.h">ICSTrigger.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSUserAddress.h">ICSUserAddress.h</A>
+<A HREF="/tree/PrivateFrameworks/iCalendar.framework/ICSZStringWriter.h">ICSZStringWriter.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

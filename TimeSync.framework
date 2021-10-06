@@ -1,0 +1,115 @@
+<HTML>
+<HEAD>
+<TITLE>TimeSync.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/TimeSync.framework
+57 classes
+
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSADEVValue.h">TSADEVValue.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSAllanDeviationAnalysis.h">TSAllanDeviationAnalysis.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSAudioTimeErrorCalculator.h">TSAudioTimeErrorCalculator.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSAudioTimeErrorCorrelator.h">TSAudioTimeErrorCorrelator.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSAudioTimeErrorCorrelatorPostUpsampler.h">TSAudioTimeErrorCorrelatorPostUpsampler.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSAudioTimeErrorCorrelatorQuick.h">TSAudioTimeErrorCorrelatorQuick.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSAudioTimeErrorCorrelatorResampler.h">TSAudioTimeErrorCorrelatorResampler.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSAudioTimeErrorValue.h">TSAudioTimeErrorValue.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSBonjourAdvertise.h">TSBonjourAdvertise.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSBonjourBrowser.h">TSBonjourBrowser.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSBonjourIPv4Address.h">TSBonjourIPv4Address.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSBonjourIPv6Address.h">TSBonjourIPv6Address.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSBonjourInterface.h">TSBonjourInterface.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSBonjourNode.h">TSBonjourNode.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSClock.h">TSClock.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSClockInterface.h">TSClockInterface.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSClockManager.h">TSClockManager.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSFrequencyAnalysis.h">TSFrequencyAnalysis.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSIntervalFilter.h">TSIntervalFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSIntervalTimeLineFilter.h">TSIntervalTimeLineFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSKernelClock.h">TSKernelClock.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSMADEVValue.h">TSMADEVValue.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSMTIEMask.h">TSMTIEMask.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSMTIEMaskElement.h">TSMTIEMaskElement.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSMTIEMaskError.h">TSMTIEMaskError.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSMTIEValue.h">TSMTIEValue.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSMachAbsoluteNanoseconds.h">TSMachAbsoluteNanoseconds.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSMaximumTimeIntervalErrorAnalysis.h">TSMaximumTimeIntervalErrorAnalysis.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSModifiedAllanDeviationAnalysis.h">TSModifiedAllanDeviationAnalysis.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSPortInterface.h">TSPortInterface.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSRMSTIEValue.h">TSRMSTIEValue.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSRootMeanSquaredTimeIntervalErrorAnalysis.h">TSRootMeanSquaredTimeIntervalErrorAnalysis.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSTDEVValue.h">TSTDEVValue.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSTimeDeviationAnalysis.h">TSTimeDeviationAnalysis.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSTimeErrorAnalysis.h">TSTimeErrorAnalysis.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSTimeErrorSequence.h">TSTimeErrorSequence.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSTimeErrorValue.h">TSTimeErrorValue.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSTimeLineFilter.h">TSTimeLineFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSUserFilteredClock.h">TSUserFilteredClock.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSgPTPClock.h">TSgPTPClock.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSgPTPEthernetPort.h">TSgPTPEthernetPort.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSgPTPFDEtEPort.h">TSgPTPFDEtEPort.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSgPTPFDPtPPort.h">TSgPTPFDPtPPort.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSgPTPMachPort.h">TSgPTPMachPort.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSgPTPManager.h">TSgPTPManager.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSgPTPNetworkPort.h">TSgPTPNetworkPort.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSgPTPPort.h">TSgPTPPort.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSgPTPPortStatistics.h">TSgPTPPortStatistics.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSgPTPTime.h">TSgPTPTime.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSgPTPUnicastLinkLayerEtEPort.h">TSgPTPUnicastLinkLayerEtEPort.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSgPTPUnicastLinkLayerPtPPort.h">TSgPTPUnicastLinkLayerPtPPort.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSgPTPUnicastUDPv4EtEPort.h">TSgPTPUnicastUDPv4EtEPort.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSgPTPUnicastUDPv4PtPPort.h">TSgPTPUnicastUDPv4PtPPort.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSgPTPUnicastUDPv6EtEPort.h">TSgPTPUnicastUDPv6EtEPort.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/TSgPTPUnicastUDPv6PtPPort.h">TSgPTPUnicastUDPv6PtPPort.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/__TSKernelClockNotification.h">__TSKernelClockNotification.h</A>
+<A HREF="/tree/PrivateFrameworks/TimeSync.framework/__TSgPTPPortNotification.h">__TSgPTPPortNotification.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

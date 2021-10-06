@@ -1,0 +1,90 @@
+<HTML>
+<HEAD>
+<TITLE>WebContentAnalysis.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/WebContentAnalysis.framework
+32 classes
+
+<A HREF="/tree/PrivateFrameworks/WebContentAnalysis.framework/WFBlockPage.h">WFBlockPage.h</A>
+<A HREF="/tree/PrivateFrameworks/WebContentAnalysis.framework/WFCategoryJudgement.h">WFCategoryJudgement.h</A>
+<A HREF="/tree/PrivateFrameworks/WebContentAnalysis.framework/WFContentSniffer.h">WFContentSniffer.h</A>
+<A HREF="/tree/PrivateFrameworks/WebContentAnalysis.framework/WFDocumentStructureTag.h">WFDocumentStructureTag.h</A>
+<A HREF="/tree/PrivateFrameworks/WebContentAnalysis.framework/WFImg.h">WFImg.h</A>
+<A HREF="/tree/PrivateFrameworks/WebContentAnalysis.framework/WFImgArrayCache.h">WFImgArrayCache.h</A>
+<A HREF="/tree/PrivateFrameworks/WebContentAnalysis.framework/WFJapanDatingTag.h">WFJapanDatingTag.h</A>
+<A HREF="/tree/PrivateFrameworks/WebContentAnalysis.framework/WFJavascriptStripper.h">WFJavascriptStripper.h</A>
+<A HREF="/tree/PrivateFrameworks/WebContentAnalysis.framework/WFJudge.h">WFJudge.h</A>
+<A HREF="/tree/PrivateFrameworks/WebContentAnalysis.framework/WFLSMMap.h">WFLSMMap.h</A>
+<A HREF="/tree/PrivateFrameworks/WebContentAnalysis.framework/WFLSMResult.h">WFLSMResult.h</A>
+<A HREF="/tree/PrivateFrameworks/WebContentAnalysis.framework/WFLSMScoreNormalizedMap.h">WFLSMScoreNormalizedMap.h</A>
+<A HREF="/tree/PrivateFrameworks/WebContentAnalysis.framework/WFLink.h">WFLink.h</A>
+<A HREF="/tree/PrivateFrameworks/WebContentAnalysis.framework/WFNodeWrapper.h">WFNodeWrapper.h</A>
+<A HREF="/tree/PrivateFrameworks/WebContentAnalysis.framework/WFPINEntryViewController.h">WFPINEntryViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/WebContentAnalysis.framework/WFPostprocessor.h">WFPostprocessor.h</A>
+<A HREF="/tree/PrivateFrameworks/WebContentAnalysis.framework/WFRemotePINEntryViewController.h">WFRemotePINEntryViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/WebContentAnalysis.framework/WFSlangTag.h">WFSlangTag.h</A>
+<A HREF="/tree/PrivateFrameworks/WebContentAnalysis.framework/WFTagFactory.h">WFTagFactory.h</A>
+<A HREF="/tree/PrivateFrameworks/WebContentAnalysis.framework/WFTagFlyweight.h">WFTagFlyweight.h</A>
+<A HREF="/tree/PrivateFrameworks/WebContentAnalysis.framework/WFTreeHTMLStripper.h">WFTreeHTMLStripper.h</A>
+<A HREF="/tree/PrivateFrameworks/WebContentAnalysis.framework/WFTreeXMLDocumentStripper.h">WFTreeXMLDocumentStripper.h</A>
+<A HREF="/tree/PrivateFrameworks/WebContentAnalysis.framework/WFUSC2257Tag.h">WFUSC2257Tag.h</A>
+<A HREF="/tree/PrivateFrameworks/WebContentAnalysis.framework/WFUserSettings.h">WFUserSettings.h</A>
+<A HREF="/tree/PrivateFrameworks/WebContentAnalysis.framework/WFVerdict.h">WFVerdict.h</A>
+<A HREF="/tree/PrivateFrameworks/WebContentAnalysis.framework/WFWebPageDecorator.h">WFWebPageDecorator.h</A>
+<A HREF="/tree/PrivateFrameworks/WebContentAnalysis.framework/WFWebPageToFilterText.h">WFWebPageToFilterText.h</A>
+<A HREF="/tree/PrivateFrameworks/WebContentAnalysis.framework/WFWebPageToTrainingText.h">WFWebPageToTrainingText.h</A>
+<A HREF="/tree/PrivateFrameworks/WebContentAnalysis.framework/WFWhitelistSiteBuffer.h">WFWhitelistSiteBuffer.h</A>
+<A HREF="/tree/PrivateFrameworks/WebContentAnalysis.framework/WFWhitelistUserPreferences.h">WFWhitelistUserPreferences.h</A>
+<A HREF="/tree/PrivateFrameworks/WebContentAnalysis.framework/WebFilterEvaluator.h">WebFilterEvaluator.h</A>
+<A HREF="/tree/PrivateFrameworks/WebContentAnalysis.framework/XMLNode.h">XMLNode.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

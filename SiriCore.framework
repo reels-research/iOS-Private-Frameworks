@@ -1,0 +1,104 @@
+<HTML>
+<HEAD>
+<TITLE>SiriCore.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/SiriCore.framework
+46 classes
+
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SASetRestrictionsThunk.h">SASetRestrictionsThunk.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreAceConnectionAnalysisInfo.h">SiriCoreAceConnectionAnalysisInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreAceSerialization.h">SiriCoreAceSerialization.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreConnectionMetrics.h">SiriCoreConnectionMetrics.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreConnectionQueueMonitor.h">SiriCoreConnectionQueueMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreConnectionTCPInfoMetrics.h">SiriCoreConnectionTCPInfoMetrics.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreConnectionType.h">SiriCoreConnectionType.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreCorrectionPronunciation.h">SiriCoreCorrectionPronunciation.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreDataCompressor.h">SiriCoreDataCompressor.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreDataDecompressor.h">SiriCoreDataDecompressor.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreErrorInfo.h">SiriCoreErrorInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreLinkRecommendationInfo.h">SiriCoreLinkRecommendationInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreLocalSpeechRecognizer.h">SiriCoreLocalSpeechRecognizer.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreNWConnection.h">SiriCoreNWConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreNWContext.h">SiriCoreNWContext.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreNetworkActivity.h">SiriCoreNetworkActivity.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreNetworkActivityTracing.h">SiriCoreNetworkActivityTracing.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreNetworkManager.h">SiriCoreNetworkManager.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreNetworkQualityReport.h">SiriCoreNetworkQualityReport.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreNetworkSessionProvider.h">SiriCoreNetworkSessionProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCorePingInfo.h">SiriCorePingInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreSQLiteColumnConstraint.h">SiriCoreSQLiteColumnConstraint.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreSQLiteColumnDescription.h">SiriCoreSQLiteColumnDescription.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreSQLiteDatabase.h">SiriCoreSQLiteDatabase.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreSQLiteIndexDescription.h">SiriCoreSQLiteIndexDescription.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreSQLiteQuery.h">SiriCoreSQLiteQuery.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreSQLiteQueryCriterion.h">SiriCoreSQLiteQueryCriterion.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreSQLiteQueryOrder.h">SiriCoreSQLiteQueryOrder.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreSQLiteQueryRange.h">SiriCoreSQLiteQueryRange.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreSQLiteQueryResult.h">SiriCoreSQLiteQueryResult.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreSQLiteStatement.h">SiriCoreSQLiteStatement.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreSQLiteTableConstraint.h">SiriCoreSQLiteTableConstraint.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreSQLiteTableDescription.h">SiriCoreSQLiteTableDescription.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreSiriBackgroundConnection.h">SiriCoreSiriBackgroundConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreSiriConnection.h">SiriCoreSiriConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreSiriConnectionInfo.h">SiriCoreSiriConnectionInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreSpeechPacket.h">SiriCoreSpeechPacket.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreSymptomsReporter.h">SiriCoreSymptomsReporter.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreUserCorrectionsProfileEntry.h">SiriCoreUserCorrectionsProfileEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreWiFiManagerClient.h">SiriCoreWiFiManagerClient.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreZlibDataCompressor.h">SiriCoreZlibDataCompressor.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/SiriCoreZlibDataDecompressor.h">SiriCoreZlibDataDecompressor.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/_SAMetricsSendCompletionsProxy.h">_SAMetricsSendCompletionsProxy.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/_SiriCoreSQLiteColumnInfo.h">_SiriCoreSQLiteColumnInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/_SiriCoreSQLiteIndexInfo.h">_SiriCoreSQLiteIndexInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriCore.framework/_SiriCoreSQLiteTableInfo.h">_SiriCoreSQLiteTableInfo.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

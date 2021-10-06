@@ -1,0 +1,160 @@
+<HTML>
+<HEAD>
+<TITLE>TextInputCore.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/TextInputCore.framework
+102 classes
+
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIAccumulatingCandidateHandler.h">TIAccumulatingCandidateHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIAppAutofillManager.h">TIAppAutofillManager.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIAsset.h">TIAsset.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIAssetAttributes.h">TIAssetAttributes.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIAssetContentItem.h">TIAssetContentItem.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIAssetManager.h">TIAssetManager.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIAssetVersions.h">TIAssetVersions.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIAssetsForInputMode.h">TIAssetsForInputMode.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIAssetsForInputModeLevel.h">TIAssetsForInputModeLevel.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIAutoshiftRegularExpressionLoader.h">TIAutoshiftRegularExpressionLoader.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIConnectionsMetricsTracker.h">TIConnectionsMetricsTracker.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIContact.h">TIContact.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIContactCollection.h">TIContactCollection.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIContactManager.h">TIContactManager.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TICryptographer.h">TICryptographer.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIDebugValue.h">TIDebugValue.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIEmojiCandidateGenerator.h">TIEmojiCandidateGenerator.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIGeocodeCompletionHandlerHolder.h">TIGeocodeCompletionHandlerHolder.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIInputMode.h">TIInputMode.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIKeyboardActivityContext.h">TIKeyboardActivityContext.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIKeyboardActivityController.h">TIKeyboardActivityController.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIKeyboardApplicationStateMonitor.h">TIKeyboardApplicationStateMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIKeyboardAssertionManager.h">TIKeyboardAssertionManager.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIKeyboardFeatureSpecialization.h">TIKeyboardFeatureSpecialization.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIKeyboardInputManager.h">TIKeyboardInputManager.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIKeyboardInputManagerBase.h">TIKeyboardInputManagerBase.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIKeyboardInputManagerConfig.h">TIKeyboardInputManagerConfig.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIKeyboardInputManagerKeyboardContext.h">TIKeyboardInputManagerKeyboardContext.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIKeyboardInputManagerLoader.h">TIKeyboardInputManagerLoader.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIKeyboardInputManagerLoaderSyncHelper.h">TIKeyboardInputManagerLoaderSyncHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIKeyboardInputManagerLogger.h">TIKeyboardInputManagerLogger.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIKeyboardInputManagerPolymorph.h">TIKeyboardInputManagerPolymorph.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIKeyboardInputManagerWrapper.h">TIKeyboardInputManagerWrapper.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIKeyboardInputManager_mul.h">TIKeyboardInputManager_mul.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIKeyboardInputManager_zh_ja.h">TIKeyboardInputManager_zh_ja.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIKeyboardQuickTypeSpecialization.h">TIKeyboardQuickTypeSpecialization.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIKeyboardSecureCandidateRenderer.h">TIKeyboardSecureCandidateRenderer.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIKeyboardSecureCandidateTextRendering.h">TIKeyboardSecureCandidateTextRendering.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TILRUDictionary.h">TILRUDictionary.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TILRUDictionaryNode.h">TILRUDictionaryNode.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TILanguageModelAdaptationContext.h">TILanguageModelAdaptationContext.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TILanguageModelLoader.h">TILanguageModelLoader.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TILanguageModelMaintainer.h">TILanguageModelMaintainer.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TILanguageModelOfflineLearningAgent.h">TILanguageModelOfflineLearningAgent.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TILanguageModelOfflineLearningHandle.h">TILanguageModelOfflineLearningHandle.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TILanguageModelOfflineLearningHandleFavonius.h">TILanguageModelOfflineLearningHandleFavonius.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TILanguageModelOfflineLearningHandleLanguageLikelihood.h">TILanguageModelOfflineLearningHandleLanguageLikelihood.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TILanguageModelOfflineLearningHandleMecabra.h">TILanguageModelOfflineLearningHandleMecabra.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TILanguageModelOfflineLearningStrategyMecabraFavonius.h">TILanguageModelOfflineLearningStrategyMecabraFavonius.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TILanguageModelOfflineLearningStrategyResponseKit.h">TILanguageModelOfflineLearningStrategyResponseKit.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TILanguageModelOfflineLearningTask.h">TILanguageModelOfflineLearningTask.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TILanguageModelOfflineLearningTaskMail.h">TILanguageModelOfflineLearningTaskMail.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TILanguageModelOfflineLearningTaskMessages.h">TILanguageModelOfflineLearningTaskMessages.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TILanguageSelectionController.h">TILanguageSelectionController.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TILaunchServicesLookup.h">TILaunchServicesLookup.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TILoginCredential.h">TILoginCredential.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIMecabraEnvironment.h">TIMecabraEnvironment.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIMecabraEnvironmentContextWrapper.h">TIMecabraEnvironmentContextWrapper.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIMecabraIMLogger.h">TIMecabraIMLogger.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIMecabraWrapper.h">TIMecabraWrapper.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIMobileAssetMatch.h">TIMobileAssetMatch.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIMobileAssetMediator.h">TIMobileAssetMediator.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIMobileAssetSyncState.h">TIMobileAssetSyncState.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIMobileAssetTimer.h">TIMobileAssetTimer.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIMobileAssetTimerImpl.h">TIMobileAssetTimerImpl.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TINoncancellableBlockOperation.h">TINoncancellableBlockOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIPersistentQueue.h">TIPersistentQueue.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIProactiveQuickTypeManager.h">TIProactiveQuickTypeManager.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIProactiveTrigger.h">TIProactiveTrigger.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIRecipientModel.h">TIRecipientModel.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIResponseKitManager.h">TIResponseKitManager.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIResponseKitTrainerImpl.h">TIResponseKitTrainerImpl.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIRevisionHistory.h">TIRevisionHistory.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIRevisionHistoryToken.h">TIRevisionHistoryToken.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TISCTextRunRequest.h">TISCTextRunRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TISCTextRunResponse.h">TISCTextRunResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIStreamingCandidateHandler.h">TIStreamingCandidateHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TISweepSource.h">TISweepSource.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TITextChecker.h">TITextChecker.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TITextCheckerExemptions.h">TITextCheckerExemptions.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TITextCheckerExemptionsImpl.h">TITextCheckerExemptionsImpl.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TITextInputCore.h">TITextInputCore.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TITokenizationRevision.h">TITokenizationRevision.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TITransientLexiconManager.h">TITransientLexiconManager.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TITypingAssertion.h">TITypingAssertion.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIUserDictionaryServer.h">TIUserDictionaryServer.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIWordSearch.h">TIWordSearch.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIWordSearchCandidateResultSet.h">TIWordSearchCandidateResultSet.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIWordSearchController.h">TIWordSearchController.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIWordSearchOperation.h">TIWordSearchOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIWordSearchOperationAcceptCandidate.h">TIWordSearchOperationAcceptCandidate.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIWordSearchOperationAdaptOffline.h">TIWordSearchOperationAdaptOffline.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIWordSearchOperationCancelLastAcceptedCandidate.h">TIWordSearchOperationCancelLastAcceptedCandidate.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIWordSearchOperationContextAcceptCandidate.h">TIWordSearchOperationContextAcceptCandidate.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIWordSearchOperationFlushDynamicData.h">TIWordSearchOperationFlushDynamicData.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIWordSearchOperationGetCandidates.h">TIWordSearchOperationGetCandidates.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIWordSearchOperationPerformMaintenance.h">TIWordSearchOperationPerformMaintenance.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/TIWordSearchOperationSetLanguageModelAdaptationContext.h">TIWordSearchOperationSetLanguageModelAdaptationContext.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/_TIKeyboardSyncFileInstaller.h">_TIKeyboardSyncFileInstaller.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/_TILanguageLikelihoodModel.h">_TILanguageLikelihoodModel.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/_TIMultilingualPreferences.h">_TIMultilingualPreferences.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInputCore.framework/_TIStatisticsProactiveTracker.h">_TIStatisticsProactiveTracker.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

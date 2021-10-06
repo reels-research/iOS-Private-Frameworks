@@ -1,0 +1,82 @@
+<HTML>
+<HEAD>
+<TITLE>WiFiVelocity.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/WiFiVelocity.framework
+24 classes
+
+<A HREF="/tree/PrivateFrameworks/WiFiVelocity.framework/W5AWDLStatus.h">W5AWDLStatus.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiVelocity.framework/W5BluetoothDevice.h">W5BluetoothDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiVelocity.framework/W5BluetoothStatus.h">W5BluetoothStatus.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiVelocity.framework/W5Client.h">W5Client.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiVelocity.framework/W5DebugConfiguration.h">W5DebugConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiVelocity.framework/W5DiagnosticsTestRequest.h">W5DiagnosticsTestRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiVelocity.framework/W5DiagnosticsTestResult.h">W5DiagnosticsTestResult.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiVelocity.framework/W5Event.h">W5Event.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiVelocity.framework/W5LogItemReceipt.h">W5LogItemReceipt.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiVelocity.framework/W5LogItemRequest.h">W5LogItemRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiVelocity.framework/W5NetworkStatus.h">W5NetworkStatus.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiVelocity.framework/W5Peer.h">W5Peer.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiVelocity.framework/W5PerfConfiguration.h">W5PerfConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiVelocity.framework/W5PerfResult.h">W5PerfResult.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiVelocity.framework/W5PerfUpdate.h">W5PerfUpdate.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiVelocity.framework/W5PingResult.h">W5PingResult.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiVelocity.framework/W5PowerStatus.h">W5PowerStatus.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiVelocity.framework/W5SpeedTestResult.h">W5SpeedTestResult.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiVelocity.framework/W5Status.h">W5Status.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiVelocity.framework/W5WiFiChannel.h">W5WiFiChannel.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiVelocity.framework/W5WiFiLinkQualityUpdate.h">W5WiFiLinkQualityUpdate.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiVelocity.framework/W5WiFiPreferredNetwork.h">W5WiFiPreferredNetwork.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiVelocity.framework/W5WiFiScanResult.h">W5WiFiScanResult.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiVelocity.framework/W5WiFiStatus.h">W5WiFiStatus.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

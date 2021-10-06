@@ -1,0 +1,133 @@
+<HTML>
+<HEAD>
+<TITLE>UIFoundation.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/UIFoundation.framework
+75 classes
+
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSATSGlyphStorage.h">NSATSGlyphStorage.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSATSLineFragment.h">NSATSLineFragment.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSATSTypesetter.h">NSATSTypesetter.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSAttributeDictionary.h">NSAttributeDictionary.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSAttributeDictionaryEnumerator.h">NSAttributeDictionaryEnumerator.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSCIDGlyphInfo.h">NSCIDGlyphInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSCTGlyphInfo.h">NSCTGlyphInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSConcreteNotifyingMutableAttributedString.h">NSConcreteNotifyingMutableAttributedString.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSConcreteTextStorage.h">NSConcreteTextStorage.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSCoreTypesetter.h">NSCoreTypesetter.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSExtraLMData.h">NSExtraLMData.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSFont.h">NSFont.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSGlyphGenerator.h">NSGlyphGenerator.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSGlyphInfo.h">NSGlyphInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSGlyphNameGlyphInfo.h">NSGlyphNameGlyphInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSHTMLReader.h">NSHTMLReader.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSHTMLWebDelegate.h">NSHTMLWebDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSHTMLWriter.h">NSHTMLWriter.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSIdRunStorage.h">NSIdRunStorage.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSIdentityGlyphInfo.h">NSIdentityGlyphInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSInsertionPointHelper.h">NSInsertionPointHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSLayoutManager.h">NSLayoutManager.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSLayoutManagerTextBlockHelper.h">NSLayoutManagerTextBlockHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSLayoutManagerTextBlockRowArrayCache.h">NSLayoutManagerTextBlockRowArrayCache.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSLineFragmentRenderingContext.h">NSLineFragmentRenderingContext.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSMutableParagraphStyle.h">NSMutableParagraphStyle.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSParagraphArbitrator.h">NSParagraphArbitrator.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSParagraphStyle.h">NSParagraphStyle.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSParagraphStyleExtraData.h">NSParagraphStyleExtraData.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSRTFReader.h">NSRTFReader.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSRTFReaderTableState.h">NSRTFReaderTableState.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSRTFWriter.h">NSRTFWriter.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSRunStorage.h">NSRunStorage.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSShadow.h">NSShadow.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSSingleLineTypesetter.h">NSSingleLineTypesetter.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSStorage.h">NSStorage.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSStringDrawingContext.h">NSStringDrawingContext.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSStringDrawingTextStorage.h">NSStringDrawingTextStorage.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSStringDrawingTextStorageSettings.h">NSStringDrawingTextStorageSettings.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSSubstituteWebResource.h">NSSubstituteWebResource.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSTempAttributeDictionary.h">NSTempAttributeDictionary.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSTextAlternatives.h">NSTextAlternatives.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSTextAttachment.h">NSTextAttachment.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSTextAttachmentViewProvider.h">NSTextAttachmentViewProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSTextBlock.h">NSTextBlock.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSTextBlockLayoutHelper.h">NSTextBlockLayoutHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSTextContainer.h">NSTextContainer.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSTextLayoutFragment.h">NSTextLayoutFragment.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSTextLineFragment.h">NSTextLineFragment.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSTextList.h">NSTextList.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSTextStorage.h">NSTextStorage.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSTextTab.h">NSTextTab.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSTextTable.h">NSTextTable.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSTextTableBlock.h">NSTextTableBlock.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/NSTypesetter.h">NSTypesetter.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/UIBoxcarFilterPointFIFO.h">UIBoxcarFilterPointFIFO.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/UICTFont.h">UICTFont.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/UICTFontDescriptor.h">UICTFontDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/UIFont.h">UIFont.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/UIFontDescriptor.h">UIFontDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/UINibCoderValue.h">UINibCoderValue.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/UINibDecoder.h">UINibDecoder.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/UINibEncoder.h">UINibEncoder.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/UINibStringIDTable.h">UINibStringIDTable.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/UIPointFIFO.h">UIPointFIFO.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/UIQuadCurvePointFIFO.h">UIQuadCurvePointFIFO.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/_NSATSTypesetterGuts.h">_NSATSTypesetterGuts.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/_NSAttributeRun.h">_NSAttributeRun.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/_NSAttributes.h">_NSAttributes.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/_NSCachedAttributedString.h">_NSCachedAttributedString.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/_NSTextStorageSideData.h">_NSTextStorageSideData.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/_UICache.h">_UICache.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/_UIFontCacheKey.h">_UIFontCacheKey.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/_UIPointVector.h">_UIPointVector.h</A>
+<A HREF="/tree/PrivateFrameworks/UIFoundation.framework/__NSATSStringSegment.h">__NSATSStringSegment.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

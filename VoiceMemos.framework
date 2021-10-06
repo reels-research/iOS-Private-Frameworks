@@ -1,0 +1,155 @@
+<HTML>
+<HEAD>
+<TITLE>VoiceMemos.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/VoiceMemos.framework
+97 classes
+
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/AXWaveformSelectionBarElement.h">AXWaveformSelectionBarElement.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/PlaybackVoiceMemoIntent.h">PlaybackVoiceMemoIntent.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCAVPlayer.h">RCAVPlayer.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCAVState.h">RCAVState.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCAVWaveformViewController.h">RCAVWaveformViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCActionSheetAlertController.h">RCActionSheetAlertController.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCActionSheetController.h">RCActionSheetController.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCAudioSessionRoutingAssertion.h">RCAudioSessionRoutingAssertion.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCAudioSessionRoutingController.h">RCAudioSessionRoutingController.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCAudioSessionRoutingMPAVRoutingController.h">RCAudioSessionRoutingMPAVRoutingController.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCAudioTrimmingModalItem.h">RCAudioTrimmingModalItem.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCAudioTrimmingModalItemView.h">RCAudioTrimmingModalItemView.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCAudioTrimmingModalItemViewController.h">RCAudioTrimmingModalItemViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCBlockScheduler.h">RCBlockScheduler.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCCaptureFormat.h">RCCaptureFormat.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCCaptureInputDevice.h">RCCaptureInputDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCCaptureInputWaveformDataSource.h">RCCaptureInputWaveformDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCCaptureOutputWriter.h">RCCaptureOutputWriter.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCCaptureSession.h">RCCaptureSession.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCChronologicalAnnotationView.h">RCChronologicalAnnotationView.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCCloudRecording.h">RCCloudRecording.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCComposition.h">RCComposition.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCCompositionComposedAssetWriter.h">RCCompositionComposedAssetWriter.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCCompositionController.h">RCCompositionController.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCCompositionFragment.h">RCCompositionFragment.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCCompositionWaveformDataSource.h">RCCompositionWaveformDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCContentSizeLayoutConstraint.h">RCContentSizeLayoutConstraint.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCControlsView.h">RCControlsView.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCCurrentRecordingRemoteViewController.h">RCCurrentRecordingRemoteViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCCurrentRecordingViewController.h">RCCurrentRecordingViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCDataStoreServerRequestHandlingPolicy.h">RCDataStoreServerRequestHandlingPolicy.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCDatabaseMetadata.h">RCDatabaseMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCDebugAudioGenerator.h">RCDebugAudioGenerator.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCDebugRecordingController.h">RCDebugRecordingController.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCDevice.h">RCDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCDisplayLinkBlockTargetProxy.h">RCDisplayLinkBlockTargetProxy.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCDisplayLinkTargetProxy.h">RCDisplayLinkTargetProxy.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCDurationFormatter.h">RCDurationFormatter.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCEntityRevision.h">RCEntityRevision.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCExtAudioFilePipe.h">RCExtAudioFilePipe.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCFileInputWaveformDataSource.h">RCFileInputWaveformDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCHitTestForwardingView.h">RCHitTestForwardingView.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCIntentLogger.h">RCIntentLogger.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCLayoutMetrics.h">RCLayoutMetrics.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCLocationsOfInterestManager.h">RCLocationsOfInterestManager.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCMutableComposition.h">RCMutableComposition.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCMutableCompositionFragment.h">RCMutableCompositionFragment.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCMutableWaveform.h">RCMutableWaveform.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCNoAnimateLayerHelper.h">RCNoAnimateLayerHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCOverlayBarLayer.h">RCOverlayBarLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCPersistentContainer.h">RCPersistentContainer.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCPlaceholderComposition.h">RCPlaceholderComposition.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCPreviewController.h">RCPreviewController.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCReachability.h">RCReachability.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCRecorderStateButton.h">RCRecorderStateButton.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCRecorderStyleProvider.h">RCRecorderStyleProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCSSavedRecordingAccessToken.h">RCSSavedRecordingAccessToken.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCSSavedRecordingService.h">RCSSavedRecordingService.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCSSavedRecordingServiceConnection.h">RCSSavedRecordingServiceConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCSavedRecording.h">RCSavedRecording.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCSavedRecordingCompositionController.h">RCSavedRecordingCompositionController.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCSavedRecordingPreviewController.h">RCSavedRecordingPreviewController.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCSavedRecordingsController.h">RCSavedRecordingsController.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCSavedRecordingsModel.h">RCSavedRecordingsModel.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCSavedRecordingsModelChangeContext.h">RCSavedRecordingsModelChangeContext.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCSelectionTouchTrackingInfo.h">RCSelectionTouchTrackingInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCShareMemoViewController.h">RCShareMemoViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCTelephonyController.h">RCTelephonyController.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCTextLayer.h">RCTextLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCTrimAudioFileOperation.h">RCTrimAudioFileOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCTrimCompositionOperation.h">RCTrimCompositionOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCTrimSavedRecordingOperation.h">RCTrimSavedRecordingOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCTrimTimeRangeOperation.h">RCTrimTimeRangeOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCTrimmedCompositionWaveformDataSource.h">RCTrimmedCompositionWaveformDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCUIConfiguration.h">RCUIConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCUIViewControllerNoticationObserver.h">RCUIViewControllerNoticationObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCView.h">RCView.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCVisualWaveformAmpSlice.h">RCVisualWaveformAmpSlice.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCWaveform.h">RCWaveform.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCWaveformDataSource.h">RCWaveformDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCWaveformGenerator.h">RCWaveformGenerator.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCWaveformRenderer.h">RCWaveformRenderer.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCWaveformScrollView.h">RCWaveformScrollView.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCWaveformSegment.h">RCWaveformSegment.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCWaveformSegmentAccumulator.h">RCWaveformSegmentAccumulator.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCWaveformSelectionOverlay.h">RCWaveformSelectionOverlay.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCWaveformSnapshotGenerator.h">RCWaveformSnapshotGenerator.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCWaveformViewController.h">RCWaveformViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCWeakDisplayLinkTargetProxy.h">RCWeakDisplayLinkTargetProxy.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCWeakRef.h">RCWeakRef.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RCXPCStoreServer.h">RCXPCStoreServer.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/RecordVoiceMemoIntent.h">RecordVoiceMemoIntent.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/_RCCaptureInputDeviceSession.h">_RCCaptureInputDeviceSession.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/_RCCompositionUndoItem.h">_RCCompositionUndoItem.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/_RCSAudioFile.h">_RCSAudioFile.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/_RCTimeRangeFileInputWaveformDataSource.h">_RCTimeRangeFileInputWaveformDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceMemos.framework/_RCUIViewNamedConstraints.h">_RCUIViewNamedConstraints.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

@@ -1,0 +1,93 @@
+<HTML>
+<HEAD>
+<TITLE>Widgets.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/Widgets.framework
+35 classes
+
+<A HREF="/tree/PrivateFrameworks/Widgets.framework/WGCalendarWidgetInfo.h">WGCalendarWidgetInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/Widgets.framework/WGCheckView.h">WGCheckView.h</A>
+<A HREF="/tree/PrivateFrameworks/Widgets.framework/WGCircleCheckView.h">WGCircleCheckView.h</A>
+<A HREF="/tree/PrivateFrameworks/Widgets.framework/WGCollapsingView.h">WGCollapsingView.h</A>
+<A HREF="/tree/PrivateFrameworks/Widgets.framework/WGDataSourceManager.h">WGDataSourceManager.h</A>
+<A HREF="/tree/PrivateFrameworks/Widgets.framework/WGExplanatoryView.h">WGExplanatoryView.h</A>
+<A HREF="/tree/PrivateFrameworks/Widgets.framework/WGMajorListViewController.h">WGMajorListViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/Widgets.framework/WGMappedImageCache.h">WGMappedImageCache.h</A>
+<A HREF="/tree/PrivateFrameworks/Widgets.framework/WGNewWidgetsButton.h">WGNewWidgetsButton.h</A>
+<A HREF="/tree/PrivateFrameworks/Widgets.framework/WGShortLookStyleButton.h">WGShortLookStyleButton.h</A>
+<A HREF="/tree/PrivateFrameworks/Widgets.framework/WGWidgetAttributionView.h">WGWidgetAttributionView.h</A>
+<A HREF="/tree/PrivateFrameworks/Widgets.framework/WGWidgetDataSource.h">WGWidgetDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/Widgets.framework/WGWidgetDataSourceManager.h">WGWidgetDataSourceManager.h</A>
+<A HREF="/tree/PrivateFrameworks/Widgets.framework/WGWidgetDatum.h">WGWidgetDatum.h</A>
+<A HREF="/tree/PrivateFrameworks/Widgets.framework/WGWidgetDiscoveryController.h">WGWidgetDiscoveryController.h</A>
+<A HREF="/tree/PrivateFrameworks/Widgets.framework/WGWidgetEventTracker.h">WGWidgetEventTracker.h</A>
+<A HREF="/tree/PrivateFrameworks/Widgets.framework/WGWidgetGroupViewController.h">WGWidgetGroupViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/Widgets.framework/WGWidgetHostingViewController.h">WGWidgetHostingViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/Widgets.framework/WGWidgetInfo.h">WGWidgetInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/Widgets.framework/WGWidgetLifeCycleSequence.h">WGWidgetLifeCycleSequence.h</A>
+<A HREF="/tree/PrivateFrameworks/Widgets.framework/WGWidgetListEditViewController.h">WGWidgetListEditViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/Widgets.framework/WGWidgetListEditViewTableHeaderView.h">WGWidgetListEditViewTableHeaderView.h</A>
+<A HREF="/tree/PrivateFrameworks/Widgets.framework/WGWidgetListEditViewTableViewCell.h">WGWidgetListEditViewTableViewCell.h</A>
+<A HREF="/tree/PrivateFrameworks/Widgets.framework/WGWidgetListFooterView.h">WGWidgetListFooterView.h</A>
+<A HREF="/tree/PrivateFrameworks/Widgets.framework/WGWidgetListItemViewController.h">WGWidgetListItemViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/Widgets.framework/WGWidgetListViewController.h">WGWidgetListViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/Widgets.framework/WGWidgetPersistentStateController.h">WGWidgetPersistentStateController.h</A>
+<A HREF="/tree/PrivateFrameworks/Widgets.framework/WGWidgetPlatterView.h">WGWidgetPlatterView.h</A>
+<A HREF="/tree/PrivateFrameworks/Widgets.framework/WGWidgetViewController.h">WGWidgetViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/Widgets.framework/WGWidgetVisibilityManager.h">WGWidgetVisibilityManager.h</A>
+<A HREF="/tree/PrivateFrameworks/Widgets.framework/_WGBrokenWidgetView.h">_WGBrokenWidgetView.h</A>
+<A HREF="/tree/PrivateFrameworks/Widgets.framework/_WGCAPackageView.h">_WGCAPackageView.h</A>
+<A HREF="/tree/PrivateFrameworks/Widgets.framework/_WGConcreteDataSource.h">_WGConcreteDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/Widgets.framework/_WGLockedOutWidgetView.h">_WGLockedOutWidgetView.h</A>
+<A HREF="/tree/PrivateFrameworks/Widgets.framework/_WGWidgetRemoteViewController.h">_WGWidgetRemoteViewController.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

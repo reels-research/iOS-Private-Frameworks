@@ -1,0 +1,163 @@
+<HTML>
+<HEAD>
+<TITLE>TelephonyUtilities.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/TelephonyUtilities.framework
+105 classes
+
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUAdhocResult.h">TUAdhocResult.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUAnswerRequest.h">TUAnswerRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUAudioController.h">TUAudioController.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUAudioDeviceController.h">TUAudioDeviceController.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUAudioFrequencyController.h">TUAudioFrequencyController.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUAudioRoute.h">TUAudioRoute.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUAudioRouteCollectionKey.h">TUAudioRouteCollectionKey.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUAudioSystemController.h">TUAudioSystemController.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUAutocompleteResultPartitioner.h">TUAutocompleteResultPartitioner.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUCTCapabilitiesState.h">TUCTCapabilitiesState.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUCTCapabilityInfo.h">TUCTCapabilityInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUCall.h">TUCall.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUCallCapabilities.h">TUCallCapabilities.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUCallCapabilitiesState.h">TUCallCapabilitiesState.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUCallCapabilitiesXPCClient.h">TUCallCapabilitiesXPCClient.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUCallCenter.h">TUCallCenter.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUCallContainer.h">TUCallContainer.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUCallDirectoryMetadataCacheDataProvider.h">TUCallDirectoryMetadataCacheDataProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUCallDisplayContext.h">TUCallDisplayContext.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUCallGroup.h">TUCallGroup.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUCallHistoryController.h">TUCallHistoryController.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUCallHistoryManager.h">TUCallHistoryManager.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUCallHistoryManagerXPCClient.h">TUCallHistoryManagerXPCClient.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUCallHistorySearchModule.h">TUCallHistorySearchModule.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUCallModel.h">TUCallModel.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUCallNotificationManager.h">TUCallNotificationManager.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUCallProvider.h">TUCallProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUCallProviderManager.h">TUCallProviderManager.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUCallProviderManagerXPCClient.h">TUCallProviderManagerXPCClient.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUCallServicesClientCapabilities.h">TUCallServicesClientCapabilities.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUCallServicesInterface.h">TUCallServicesInterface.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUCallSoundPlayer.h">TUCallSoundPlayer.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUCallSoundPlayerDescriptor.h">TUCallSoundPlayerDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUCloudCallingDevice.h">TUCloudCallingDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUContactsAutocompleteSearchModule.h">TUContactsAutocompleteSearchModule.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUContactsDataProvider.h">TUContactsDataProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUContactsDataProviderFetchRequest.h">TUContactsDataProviderFetchRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUContactsDataProviderResult.h">TUContactsDataProviderResult.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUConversation.h">TUConversation.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUConversationManager.h">TUConversationManager.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUConversationManagerXPCClient.h">TUConversationManagerXPCClient.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUConversationMediaController.h">TUConversationMediaController.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUConversationMember.h">TUConversationMember.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUConversationParticipant.h">TUConversationParticipant.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUConversationParticipantPresentationContext.h">TUConversationParticipantPresentationContext.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUCoreTelephonyClient.h">TUCoreTelephonyClient.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUDTMFSoundPlayer.h">TUDTMFSoundPlayer.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUDialAssist.h">TUDialAssist.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUDialRequest.h">TUDialRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUDispatcher.h">TUDispatcher.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUDynamicCallDisplayContext.h">TUDynamicCallDisplayContext.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUGeoLocationMetadataCacheDataProvider.h">TUGeoLocationMetadataCacheDataProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUGeoLocationMetadataWorker.h">TUGeoLocationMetadataWorker.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUGroupTitle.h">TUGroupTitle.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUHandle.h">TUHandle.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUICFInterface.h">TUICFInterface.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUIDSLookupManager.h">TUIDSLookupManager.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUJoinConversationRequest.h">TUJoinConversationRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TULabeledHandle.h">TULabeledHandle.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TULogging.h">TULogging.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUMapsMetadataCacheDataProvider.h">TUMapsMetadataCacheDataProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUMetadataCache.h">TUMetadataCache.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUMetadataCacheDataProvider.h">TUMetadataCacheDataProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUMetadataClientController.h">TUMetadataClientController.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUMetadataDestinationID.h">TUMetadataDestinationID.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUMetadataItem.h">TUMetadataItem.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUMomentDescriptor.h">TUMomentDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUMomentsCapabilities.h">TUMomentsCapabilities.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUMomentsController.h">TUMomentsController.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUMomentsControllerXPCClient.h">TUMomentsControllerXPCClient.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUMutableCallContainer.h">TUMutableCallContainer.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUMutableCallDisplayContext.h">TUMutableCallDisplayContext.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUMutableConversationParticipant.h">TUMutableConversationParticipant.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUMutableRoute.h">TUMutableRoute.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUNotifyObserver.h">TUNotifyObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUOptionalObject.h">TUOptionalObject.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUPhoneNumber.h">TUPhoneNumber.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUPrivacyManager.h">TUPrivacyManager.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUPrivacyRule.h">TUPrivacyRule.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUProxyAutocompleteResult.h">TUProxyAutocompleteResult.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUProxyCall.h">TUProxyCall.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUProxyRecentCall.h">TUProxyRecentCall.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TURecentsResults.h">TURecentsResults.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TURemoteVideoClient.h">TURemoteVideoClient.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TURepeatingAction.h">TURepeatingAction.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TURepeatingActor.h">TURepeatingActor.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUReplyWithMessageStore.h">TUReplyWithMessageStore.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUResultGroup.h">TUResultGroup.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TURoute.h">TURoute.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TURouteController.h">TURouteController.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUSandboxExtendedURL.h">TUSandboxExtendedURL.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUSearchController.h">TUSearchController.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUSearchModuleManager.h">TUSearchModuleManager.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUSearchResults.h">TUSearchResults.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUSenderIdentity.h">TUSenderIdentity.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUSenderIdentityCapabilities.h">TUSenderIdentityCapabilities.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUSenderIdentityCapabilitiesState.h">TUSenderIdentityCapabilitiesState.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUSenderIdentityClient.h">TUSenderIdentityClient.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUSoundPlayer.h">TUSoundPlayer.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUSuggestionsMetadataCacheDataProvider.h">TUSuggestionsMetadataCacheDataProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUThumperCTCapabilitiesState.h">TUThumperCTCapabilitiesState.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUVideoCallAttributes.h">TUVideoCallAttributes.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUVideoDeviceController.h">TUVideoDeviceController.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUVideoDeviceControllerProvider.h">TUVideoDeviceControllerProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyUtilities.framework/TUVideoEffect.h">TUVideoEffect.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

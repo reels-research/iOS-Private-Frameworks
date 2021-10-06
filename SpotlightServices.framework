@@ -1,0 +1,96 @@
+<HTML>
+<HEAD>
+<TITLE>SpotlightServices.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/SpotlightServices.framework
+38 classes
+
+<A HREF="/tree/PrivateFrameworks/SpotlightServices.framework/PRSAnonymousPipelineManager.h">PRSAnonymousPipelineManager.h</A>
+<A HREF="/tree/PrivateFrameworks/SpotlightServices.framework/PRSAnonymousPipelineManagerSession.h">PRSAnonymousPipelineManagerSession.h</A>
+<A HREF="/tree/PrivateFrameworks/SpotlightServices.framework/PRSBagHandler.h">PRSBagHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/SpotlightServices.framework/PRSCoreDuet.h">PRSCoreDuet.h</A>
+<A HREF="/tree/PrivateFrameworks/SpotlightServices.framework/PRSCoreParsecQueryTask.h">PRSCoreParsecQueryTask.h</A>
+<A HREF="/tree/PrivateFrameworks/SpotlightServices.framework/PRSDictationQueryTask.h">PRSDictationQueryTask.h</A>
+<A HREF="/tree/PrivateFrameworks/SpotlightServices.framework/PRSDirectivesManager.h">PRSDirectivesManager.h</A>
+<A HREF="/tree/PrivateFrameworks/SpotlightServices.framework/PRSFTETask.h">PRSFTETask.h</A>
+<A HREF="/tree/PrivateFrameworks/SpotlightServices.framework/PRSFeedbackProxy.h">PRSFeedbackProxy.h</A>
+<A HREF="/tree/PrivateFrameworks/SpotlightServices.framework/PRSL2FeatureVector.h">PRSL2FeatureVector.h</A>
+<A HREF="/tree/PrivateFrameworks/SpotlightServices.framework/PRSL2FeatureVectorProcessingContext.h">PRSL2FeatureVectorProcessingContext.h</A>
+<A HREF="/tree/PrivateFrameworks/SpotlightServices.framework/PRSMLManager.h">PRSMLManager.h</A>
+<A HREF="/tree/PrivateFrameworks/SpotlightServices.framework/PRSModel.h">PRSModel.h</A>
+<A HREF="/tree/PrivateFrameworks/SpotlightServices.framework/PRSModelContext.h">PRSModelContext.h</A>
+<A HREF="/tree/PrivateFrameworks/SpotlightServices.framework/PRSModelManager.h">PRSModelManager.h</A>
+<A HREF="/tree/PrivateFrameworks/SpotlightServices.framework/PRSModelResourceLoader.h">PRSModelResourceLoader.h</A>
+<A HREF="/tree/PrivateFrameworks/SpotlightServices.framework/PRSParsecResultSetPattern.h">PRSParsecResultSetPattern.h</A>
+<A HREF="/tree/PrivateFrameworks/SpotlightServices.framework/PRSQueryRankingConfiguration.h">PRSQueryRankingConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/SpotlightServices.framework/PRSQueryTask.h">PRSQueryTask.h</A>
+<A HREF="/tree/PrivateFrameworks/SpotlightServices.framework/PRSRankingConfiguration.h">PRSRankingConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/SpotlightServices.framework/PRSRankingCosineComponents.h">PRSRankingCosineComponents.h</A>
+<A HREF="/tree/PrivateFrameworks/SpotlightServices.framework/PRSRankingItem.h">PRSRankingItem.h</A>
+<A HREF="/tree/PrivateFrameworks/SpotlightServices.framework/PRSRankingItemCollection.h">PRSRankingItemCollection.h</A>
+<A HREF="/tree/PrivateFrameworks/SpotlightServices.framework/PRSRankingItemRanker.h">PRSRankingItemRanker.h</A>
+<A HREF="/tree/PrivateFrameworks/SpotlightServices.framework/PRSRankingItemRelativeFeatureContext.h">PRSRankingItemRelativeFeatureContext.h</A>
+<A HREF="/tree/PrivateFrameworks/SpotlightServices.framework/PRSRankingManager.h">PRSRankingManager.h</A>
+<A HREF="/tree/PrivateFrameworks/SpotlightServices.framework/PRSRankingPolicyManager.h">PRSRankingPolicyManager.h</A>
+<A HREF="/tree/PrivateFrameworks/SpotlightServices.framework/PRSRankingRenderAndEngagementValues.h">PRSRankingRenderAndEngagementValues.h</A>
+<A HREF="/tree/PrivateFrameworks/SpotlightServices.framework/PRSRankingServerKnobs.h">PRSRankingServerKnobs.h</A>
+<A HREF="/tree/PrivateFrameworks/SpotlightServices.framework/PRSRankingSpanCalculator.h">PRSRankingSpanCalculator.h</A>
+<A HREF="/tree/PrivateFrameworks/SpotlightServices.framework/PRSRankingUtilities.h">PRSRankingUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/SpotlightServices.framework/PRSSearchSession.h">PRSSearchSession.h</A>
+<A HREF="/tree/PrivateFrameworks/SpotlightServices.framework/SSADEventReporter.h">SSADEventReporter.h</A>
+<A HREF="/tree/PrivateFrameworks/SpotlightServices.framework/SSCoreMLInterface.h">SSCoreMLInterface.h</A>
+<A HREF="/tree/PrivateFrameworks/SpotlightServices.framework/SSEngagementHandler.h">SSEngagementHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/SpotlightServices.framework/SSParsecBundleFeatureCollection.h">SSParsecBundleFeatureCollection.h</A>
+<A HREF="/tree/PrivateFrameworks/SpotlightServices.framework/SSPlistDataReader.h">SSPlistDataReader.h</A>
+<A HREF="/tree/PrivateFrameworks/SpotlightServices.framework/SSRankingFeedbackHandler.h">SSRankingFeedbackHandler.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

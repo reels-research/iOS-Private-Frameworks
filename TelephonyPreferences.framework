@@ -1,0 +1,106 @@
+<HTML>
+<HEAD>
+<TITLE>TelephonyPreferences.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/TelephonyPreferences.framework
+48 classes
+
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSBundleController.h">TPSBundleController.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSCallClassRequest.h">TPSCallClassRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSCallForwardingRequest.h">TPSCallForwardingRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSCallForwardingRequestController.h">TPSCallForwardingRequestController.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSCallForwardingResponse.h">TPSCallForwardingResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSCallWaitingRequest.h">TPSCallWaitingRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSCallWaitingRequestController.h">TPSCallWaitingRequestController.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSCallWaitingResponse.h">TPSCallWaitingResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSCallingLineIdRestrictionRequest.h">TPSCallingLineIdRestrictionRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSCallingLineIdRestrictionRequestController.h">TPSCallingLineIdRestrictionRequestController.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSCallingLineIdRestrictionResponse.h">TPSCallingLineIdRestrictionResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSCallingLineIdRestrictionSetRequest.h">TPSCallingLineIdRestrictionSetRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSCarrierBundleController.h">TPSCarrierBundleController.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSCellularNetworksRequest.h">TPSCellularNetworksRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSCellularNetworksResponse.h">TPSCellularNetworksResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSCloudCallingDeviceController.h">TPSCloudCallingDeviceController.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSCloudCallingDeviceListController.h">TPSCloudCallingDeviceListController.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSCloudCallingEmergencyAddressURLController.h">TPSCloudCallingEmergencyAddressURLController.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSCloudCallingListController.h">TPSCloudCallingListController.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSCloudCallingThumperController.h">TPSCloudCallingThumperController.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSCloudCallingThumperDeviceListController.h">TPSCloudCallingThumperDeviceListController.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSCloudCallingThumperProvisioningURLController.h">TPSCloudCallingThumperProvisioningURLController.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSCloudCallingURLController.h">TPSCloudCallingURLController.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSCloudCallingWebViewController.h">TPSCloudCallingWebViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSDetailController.h">TPSDetailController.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSDetailPane.h">TPSDetailPane.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSEditingPane.h">TPSEditingPane.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSEncryptedIdentityClient.h">TPSEncryptedIdentityClient.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSListController.h">TPSListController.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSListItemsController.h">TPSListItemsController.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSLocalizedString.h">TPSLocalizedString.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSPhoneNumberEditingPane.h">TPSPhoneNumberEditingPane.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSPhonebookTelephonyController.h">TPSPhonebookTelephonyController.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSPreferences.h">TPSPreferences.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSRegistrationRequestController.h">TPSRegistrationRequestController.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSRegistrationTelephonyController.h">TPSRegistrationTelephonyController.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSRequest.h">TPSRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSRequestController.h">TPSRequestController.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSResponse.h">TPSResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSResponseError.h">TPSResponseError.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSSetCallForwardingRequest.h">TPSSetCallForwardingRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSSetCallWaitingRequest.h">TPSSetCallWaitingRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSSubscriberTelephonyController.h">TPSSubscriberTelephonyController.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSSubscriptionLabel.h">TPSSubscriptionLabel.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSSubscriptionLabeler.h">TPSSubscriptionLabeler.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSSubscriptionLabelerCharacterSets.h">TPSSubscriptionLabelerCharacterSets.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSSubscriptionListController.h">TPSSubscriptionListController.h</A>
+<A HREF="/tree/PrivateFrameworks/TelephonyPreferences.framework/TPSTelephonyController.h">TPSTelephonyController.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

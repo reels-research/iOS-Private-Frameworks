@@ -1,0 +1,137 @@
+<HTML>
+<HEAD>
+<TITLE>iTunesStore.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/iTunesStore.framework
+79 classes
+
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISAuthenticationChallenge.h">ISAuthenticationChallenge.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISAuthenticationChallengeOperation.h">ISAuthenticationChallengeOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISBiometricAuthorizationDialogOperation.h">ISBiometricAuthorizationDialogOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISBiometricOptInOperation.h">ISBiometricOptInOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISBiometricSignatureOperation.h">ISBiometricSignatureOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISBiometricStore.h">ISBiometricStore.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISBiometricUpdateTouchIDSettingsOperation.h">ISBiometricUpdateTouchIDSettingsOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISClient.h">ISClient.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISCookieStorage.h">ISCookieStorage.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISCreateAccountOperation.h">ISCreateAccountOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISCreateAccountPromptOperation.h">ISCreateAccountPromptOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISDataProvider.h">ISDataProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISDelayedInvocationRecorder.h">ISDelayedInvocationRecorder.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISDelegateProxy.h">ISDelegateProxy.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISDeleteDaemonModule.h">ISDeleteDaemonModule.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISDevice.h">ISDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISDialog.h">ISDialog.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISDialogButton.h">ISDialogButton.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISDialogOperation.h">ISDialogOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISDialogTextField.h">ISDialogTextField.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISHashError.h">ISHashError.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISHashedDownloadProvider.h">ISHashedDownloadProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISITunesSyncHelper.h">ISITunesSyncHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISInvocationRecorder.h">ISInvocationRecorder.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISJSONDataProvider.h">ISJSONDataProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISLoadSoftwareMapOperation.h">ISLoadSoftwareMapOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISLoadURLBagOperation.h">ISLoadURLBagOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISLogoutOperation.h">ISLogoutOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISMachineDataActionOperation.h">ISMachineDataActionOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISMachineDataProvisioningOperation.h">ISMachineDataProvisioningOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISMachineDataSyncOperation.h">ISMachineDataSyncOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISMainThreadInvocationRecorder.h">ISMainThreadInvocationRecorder.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISNetworkObserver.h">ISNetworkObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISOpenURLOperation.h">ISOpenURLOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISOpenURLRequest.h">ISOpenURLRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISOperation.h">ISOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISOperationQueue.h">ISOperationQueue.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISPasswordSettingsUtility.h">ISPasswordSettingsUtility.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISPersonalizeOffersOperation.h">ISPersonalizeOffersOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISPersonalizeOffersRequest.h">ISPersonalizeOffersRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISPostReviewOperation.h">ISPostReviewOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISProcessPropertyListOperation.h">ISProcessPropertyListOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISPropertyListProvider.h">ISPropertyListProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISProtocolDataProvider.h">ISProtocolDataProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISReview.h">ISReview.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISReviewProvider.h">ISReviewProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISSSURLBag.h">ISSSURLBag.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISServerAuthenticationOperation.h">ISServerAuthenticationOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISSetApplicationBadgeOperation.h">ISSetApplicationBadgeOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISSoftwareApplication.h">ISSoftwareApplication.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISSoftwareCapabilitiesDialogOperation.h">ISSoftwareCapabilitiesDialogOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISSoftwareMap.h">ISSoftwareMap.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISStoreAuthenticateOperation.h">ISStoreAuthenticateOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISStoreAuthenticationChallenge.h">ISStoreAuthenticationChallenge.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISStoreServicesRequestOperation.h">ISStoreServicesRequestOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISStoreURLOperation.h">ISStoreURLOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISStoreVersion.h">ISStoreVersion.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISTouchIDDialog.h">ISTouchIDDialog.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISTouchIDDialogButton.h">ISTouchIDDialogButton.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISUIKitDialogOperation.h">ISUIKitDialogOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISURLAuthenticationChallenge.h">ISURLAuthenticationChallenge.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISURLBag.h">ISURLBag.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISURLBagBackend.h">ISURLBagBackend.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISURLBagCache.h">ISURLBagCache.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISURLBagLoadingController.h">ISURLBagLoadingController.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISURLCache.h">ISURLCache.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISURLCacheConfiguration.h">ISURLCacheConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISURLOperation.h">ISURLOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISURLOperationPool.h">ISURLOperationPool.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISURLOperationPoolOperation.h">ISURLOperationPoolOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISURLRequest.h">ISURLRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISURLRequestPerformance.h">ISURLRequestPerformance.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISURLResolverOperation.h">ISURLResolverOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISUniqueOperationContext.h">ISUniqueOperationContext.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISUniqueOperationManager.h">ISUniqueOperationManager.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ISUserNotification.h">ISUserNotification.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/ITAPropertyDelta.h">ITAPropertyDelta.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/OpenURLTarget.h">OpenURLTarget.h</A>
+<A HREF="/tree/PrivateFrameworks/iTunesStore.framework/RemovableSoftwareLookupTable.h">RemovableSoftwareLookupTable.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

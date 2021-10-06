@@ -1,0 +1,108 @@
+<HTML>
+<HEAD>
+<TITLE>SoftwareUpdateServices.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/SoftwareUpdateServices.framework
+50 classes
+
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/AMSupportURLConnectionDelegate.h">AMSupportURLConnectionDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/AMSupportURLSession.h">AMSupportURLSession.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUAppPurgingNotification.h">SUAppPurgingNotification.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUAssetStateMatcher.h">SUAssetStateMatcher.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUAssetSupport.h">SUAssetSupport.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUAutoDownloadPolicy.h">SUAutoDownloadPolicy.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUAutoInstallFailureNotification.h">SUAutoInstallFailureNotification.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUAutoInstallForecast.h">SUAutoInstallForecast.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUAutoInstallOperation.h">SUAutoInstallOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUAutoUpdatePasscodePolicy.h">SUAutoUpdatePasscodePolicy.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUCarrierDownloadPolicyProperties.h">SUCarrierDownloadPolicyProperties.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUComposedInstallationConstraintMonitor.h">SUComposedInstallationConstraintMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUDefaultCellCarrierOverrideDownloadPolicy.h">SUDefaultCellCarrierOverrideDownloadPolicy.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUDefaultDownloadPolicy.h">SUDefaultDownloadPolicy.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUDefaultRoamingRestrictedDownloadPolicy.h">SUDefaultRoamingRestrictedDownloadPolicy.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUDefaultWiFiOnlyDownloadPolicy.h">SUDefaultWiFiOnlyDownloadPolicy.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUDescriptor.h">SUDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUDocumentation.h">SUDocumentation.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUDocumentationAssetMatcher.h">SUDocumentationAssetMatcher.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUDownload.h">SUDownload.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUDownloadMetadata.h">SUDownloadMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUDownloadPolicy.h">SUDownloadPolicy.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUDownloadPolicyFactory.h">SUDownloadPolicyFactory.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUEmptyObject.h">SUEmptyObject.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUInstallPolicy.h">SUInstallPolicy.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUInstallationConstraintMonitorBase.h">SUInstallationConstraintMonitorBase.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUInstallationConstraintMonitorForBatteryDiskAndKeybag.h">SUInstallationConstraintMonitorForBatteryDiskAndKeybag.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUInstallationConstraintMonitorNetwork.h">SUInstallationConstraintMonitorNetwork.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUInstallationConstraintMonitorPhoneCalls.h">SUInstallationConstraintMonitorPhoneCalls.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUInstallationConstraintMonitorRestoreFromICloud.h">SUInstallationConstraintMonitorRestoreFromICloud.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUInstallationConstraintMonitorRestoreFromITunes.h">SUInstallationConstraintMonitorRestoreFromITunes.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUInstallationConstraintMonitorSync.h">SUInstallationConstraintMonitorSync.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUInstallationConstraintObserver.h">SUInstallationConstraintObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUKeybagInterface.h">SUKeybagInterface.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUKeybagPreventLockAssertion.h">SUKeybagPreventLockAssertion.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUManagedDeviceUpdateDelay.h">SUManagedDeviceUpdateDelay.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUManagerClient.h">SUManagerClient.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUManifestBuilder.h">SUManifestBuilder.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUMutableDownloadMetadata.h">SUMutableDownloadMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUNetworkMonitor.h">SUNetworkMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUOperationProgress.h">SUOperationProgress.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUPreferences.h">SUPreferences.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUSFollowUpController.h">SUSFollowUpController.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUScanOptions.h">SUScanOptions.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUSoftwareUpdateAssetMatcher.h">SUSoftwareUpdateAssetMatcher.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUState.h">SUState.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/SUUtility.h">SUUtility.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/_SUAutoInstallForecastDateCache.h">_SUAutoInstallForecastDateCache.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/_SUAutoInstallOperationModel.h">_SUAutoInstallOperationModel.h</A>
+<A HREF="/tree/PrivateFrameworks/SoftwareUpdateServices.framework/_SUInstallationConstraintBlockObserverToken.h">_SUInstallationConstraintBlockObserverToken.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

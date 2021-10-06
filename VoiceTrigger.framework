@@ -1,0 +1,119 @@
+<HTML>
+<HEAD>
+<TITLE>VoiceTrigger.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/VoiceTrigger.framework
+61 classes
+
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/AudioFileWriter.h">AudioFileWriter.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTAggregator.h">VTAggregator.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTAnalyzerNDAPI.h">VTAnalyzerNDAPI.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTAssetManager.h">VTAssetManager.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTAssetManagerEnablePolicy.h">VTAssetManagerEnablePolicy.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTAssetMonitor.h">VTAssetMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTAudioCircularBuffer.h">VTAudioCircularBuffer.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTAudioFileLog.h">VTAudioFileLog.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTAudioFileReader.h">VTAudioFileReader.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTAudioRouteChangeMonitor.h">VTAudioRouteChangeMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTBatteryMonitor.h">VTBatteryMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTBiometricMatchMonitor.h">VTBiometricMatchMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTBlobBuilder.h">VTBlobBuilder.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTCorruptDetector.h">VTCorruptDetector.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTEvent.h">VTEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTEventAudioCorrupt.h">VTEventAudioCorrupt.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTEventMonitor.h">VTEventMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTEventNearTrigger.h">VTEventNearTrigger.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTEventPHSReject.h">VTEventPHSReject.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTEventPrepare.h">VTEventPrepare.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTEventTrackerManager.h">VTEventTrackerManager.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTEventTrigger.h">VTEventTrigger.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTFirstUnlockMonitor.h">VTFirstUnlockMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTGestureMonitor.h">VTGestureMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTGestureMonitorPhone.h">VTGestureMonitorPhone.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTInvalidSATEntriesCleaner.h">VTInvalidSATEntriesCleaner.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTLanguageCodeUpdateMonitor.h">VTLanguageCodeUpdateMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTLockScreenMonitor.h">VTLockScreenMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTLowPowerModeMonitor.h">VTLowPowerModeMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTPeerRemoteConnection.h">VTPeerRemoteConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTPhraseSpotter.h">VTPhraseSpotter.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTPhraseSpotterControlConnection.h">VTPhraseSpotterControlConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTPhraseSpotterControlRemote.h">VTPhraseSpotterControlRemote.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTPhraseSpotterEnabledPolicy.h">VTPhraseSpotterEnabledPolicy.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTPolicy.h">VTPolicy.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTPreferences.h">VTPreferences.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTSiriAssertionMonitor.h">VTSiriAssertionMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTSiriEnabledMonitor.h">VTSiriEnabledMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTSiriNotifications.h">VTSiriNotifications.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTSiriPHash.h">VTSiriPHash.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTSiriRestrictionOnLockScreenMonitor.h">VTSiriRestrictionOnLockScreenMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTSoftwareUpdateCheckingMonitor.h">VTSoftwareUpdateCheckingMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTSpeakerIdUtilities.h">VTSpeakerIdUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTSpringboardStartMonitor.h">VTSpringboardStartMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTStateManager.h">VTStateManager.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTTextDependentSpeakerRecognizer.h">VTTextDependentSpeakerRecognizer.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTTranscriber.h">VTTranscriber.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTTriggerEventMonitor.h">VTTriggerEventMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTTriggerEventMonitorManager.h">VTTriggerEventMonitorManager.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTUtilities.h">VTUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTUtteranceMetadataManager.h">VTUtteranceMetadataManager.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTVoiceProfileMigration.h">VTVoiceProfileMigration.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTVoiceProfileRetrainer.h">VTVoiceProfileRetrainer.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTVoiceTriggerEnabledMonitor.h">VTVoiceTriggerEnabledMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTVoiceTriggerEnabledPolicyAOP.h">VTVoiceTriggerEnabledPolicyAOP.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTVoiceTriggerEnabledPolicyHorseman.h">VTVoiceTriggerEnabledPolicyHorseman.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTVoiceTriggerEnabledPolicyNonAOP.h">VTVoiceTriggerEnabledPolicyNonAOP.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTVoiceTriggerEnabledPolicyWatch.h">VTVoiceTriggerEnabledPolicyWatch.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTXPCConnection.h">VTXPCConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTXPCServiceClient.h">VTXPCServiceClient.h</A>
+<A HREF="/tree/PrivateFrameworks/VoiceTrigger.framework/VTXPCServiceServer.h">VTXPCServiceServer.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

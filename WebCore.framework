@@ -1,0 +1,135 @@
+<HTML>
+<HEAD>
+<TITLE>WebCore.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/WebCore.framework
+77 classes
+
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/LegacyTileCacheTombstone.h">LegacyTileCacheTombstone.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/LegacyTileHostLayer.h">LegacyTileHostLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/LegacyTileLayer.h">LegacyTileLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WAKClipView.h">WAKClipView.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WAKResponder.h">WAKResponder.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WAKScrollView.h">WAKScrollView.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WAKView.h">WAKView.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WAKWindow.h">WAKWindow.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebAVAudioSessionAvailableInputsListener.h">WebAVAudioSessionAvailableInputsListener.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebAVMediaSelectionOption.h">WebAVMediaSelectionOption.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebAVPlayerController.h">WebAVPlayerController.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebAVPlayerLayer.h">WebAVPlayerLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebAVPlayerViewController.h">WebAVPlayerViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebAVPlayerViewControllerDelegate.h">WebAVPlayerViewControllerDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebAVSampleBufferStatusChangeListener.h">WebAVSampleBufferStatusChangeListener.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebAccessibilityObjectWrapper.h">WebAccessibilityObjectWrapper.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebAccessibilityObjectWrapperBase.h">WebAccessibilityObjectWrapperBase.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebAccessibilityTextMarker.h">WebAccessibilityTextMarker.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebActionDisablingCALayerDelegate.h">WebActionDisablingCALayerDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebAnimationDelegate.h">WebAnimationDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebArchiveResourceFromNSAttributedString.h">WebArchiveResourceFromNSAttributedString.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebArchiveResourceWebResourceHandler.h">WebArchiveResourceWebResourceHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebBackgroundTaskController.h">WebBackgroundTaskController.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebCookieObserverAdapter.h">WebCookieObserverAdapter.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebCoreAVCaptureDeviceManagerObserver.h">WebCoreAVCaptureDeviceManagerObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebCoreAVFLoaderDelegate.h">WebCoreAVFLoaderDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebCoreAVFMovieObserver.h">WebCoreAVFMovieObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebCoreAVFPullDelegate.h">WebCoreAVFPullDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebCoreAVVideoCaptureSourceObserver.h">WebCoreAVVideoCaptureSourceObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebCoreAudioBundleClass.h">WebCoreAudioBundleClass.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebCoreAudioCaptureSourceIOSListener.h">WebCoreAudioCaptureSourceIOSListener.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebCoreAuthenticationClientAsChallengeSender.h">WebCoreAuthenticationClientAsChallengeSender.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebCoreBundleFinder.h">WebCoreBundleFinder.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebCoreFPSContentKeySessionDelegate.h">WebCoreFPSContentKeySessionDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebCoreMotionManager.h">WebCoreMotionManager.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebCoreNSURLSession.h">WebCoreNSURLSession.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebCoreNSURLSessionDataTask.h">WebCoreNSURLSessionDataTask.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebCoreRenderThemeBundle.h">WebCoreRenderThemeBundle.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebCoreResourceHandleAsOperationQueueDelegate.h">WebCoreResourceHandleAsOperationQueueDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebCoreResourceHandleWithCredentialStorageAsOperationQueueDelegate.h">WebCoreResourceHandleWithCredentialStorageAsOperationQueueDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebCoreSharedBufferData.h">WebCoreSharedBufferData.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebCoreSharedBufferResourceLoaderDelegate.h">WebCoreSharedBufferResourceLoaderDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebCoreTextTrackRepresentationCocoaHelper.h">WebCoreTextTrackRepresentationCocoaHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebCustomNSURLError.h">WebCustomNSURLError.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebDarkSystemBackdropLayer.h">WebDarkSystemBackdropLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebDatabaseTransactionBackgroundTaskController.h">WebDatabaseTransactionBackgroundTaskController.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebDisplayLinkHandler.h">WebDisplayLinkHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebEvent.h">WebEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebEventRegion.h">WebEventRegion.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebFileManagerDelegate.h">WebFileManagerDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebGLLayer.h">WebGLLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebItemProviderDataRegistrar.h">WebItemProviderDataRegistrar.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebItemProviderLoadResult.h">WebItemProviderLoadResult.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebItemProviderPasteboard.h">WebItemProviderPasteboard.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebItemProviderPromisedFileRegistrar.h">WebItemProviderPromisedFileRegistrar.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebItemProviderRegistrationInfoList.h">WebItemProviderRegistrationInfoList.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebItemProviderWritableObjectRegistrar.h">WebItemProviderWritableObjectRegistrar.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebLayer.h">WebLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebLightSystemBackdropLayer.h">WebLightSystemBackdropLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebLowPowerModeObserver.h">WebLowPowerModeObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebMediaSessionHelper.h">WebMediaSessionHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebMetalLayer.h">WebMetalLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebNSHTTPCookieStorageDummyForInternalAccess.h">WebNSHTTPCookieStorageDummyForInternalAccess.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebNetworkStateObserver.h">WebNetworkStateObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebOverlayLayer.h">WebOverlayLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebPreviewLoader.h">WebPreviewLoader.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebScriptObject.h">WebScriptObject.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebScriptObjectPrivate.h">WebScriptObjectPrivate.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebSimpleLayer.h">WebSimpleLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebSpeechSynthesisWrapper.h">WebSpeechSynthesisWrapper.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebSystemBackdropLayer.h">WebSystemBackdropLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebTiledBackingLayer.h">WebTiledBackingLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebUndefined.h">WebUndefined.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebValidationBubbleDelegate.h">WebValidationBubbleDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebValidationBubbleTapRecognizer.h">WebValidationBubbleTapRecognizer.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebVideoContainerLayer.h">WebVideoContainerLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/WebCore.framework/WebVideoFullscreenController.h">WebVideoFullscreenController.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

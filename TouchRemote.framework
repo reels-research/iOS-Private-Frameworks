@@ -1,0 +1,142 @@
+<HTML>
+<HEAD>
+<TITLE>TouchRemote.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/TouchRemote.framework
+84 classes
+
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRAccountManager.h">TRAccountManager.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRAccountsManager.h">TRAccountsManager.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRActivationOperation.h">TRActivationOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRActivationOperationHandler.h">TRActivationOperationHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRAnisetteDataHandler.h">TRAnisetteDataHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRAnisetteDataProvider.h">TRAnisetteDataProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRAuthenticationOperation.h">TRAuthenticationOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRAuthenticationOperationHandler.h">TRAuthenticationOperationHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRClientConnection.h">TRClientConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRCompanionAuthOperation.h">TRCompanionAuthOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRCompanionAuthOperationHandler.h">TRCompanionAuthOperationHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRCompletionOperation.h">TRCompletionOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRCompletionOperationHandler.h">TRCompletionOperationHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRConnection.h">TRConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRDeviceSetupAction.h">TRDeviceSetupAction.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRDeviceSetupAuthenticateAction.h">TRDeviceSetupAuthenticateAction.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRDeviceSetupBrowser.h">TRDeviceSetupBrowser.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRDeviceSetupCancelAction.h">TRDeviceSetupCancelAction.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRDeviceSetupConnectAction.h">TRDeviceSetupConnectAction.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRDeviceSetupFinishAction.h">TRDeviceSetupFinishAction.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRDeviceSetupGeneralSetupAction.h">TRDeviceSetupGeneralSetupAction.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRDeviceSetupLegacyAction.h">TRDeviceSetupLegacyAction.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRDeviceSetupLegacyAuthenticationAction.h">TRDeviceSetupLegacyAuthenticationAction.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRDeviceSetupLegacyCancelAction.h">TRDeviceSetupLegacyCancelAction.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRDeviceSetupLegacyFinishAction.h">TRDeviceSetupLegacyFinishAction.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRDeviceSetupLegacySetupAction.h">TRDeviceSetupLegacySetupAction.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRDeviceSetupLegacySetupActionAuthInfo.h">TRDeviceSetupLegacySetupActionAuthInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRDeviceSetupPeripheral.h">TRDeviceSetupPeripheral.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRDeviceSetupServer.h">TRDeviceSetupServer.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TREraseAnisetteDataRequest.h">TREraseAnisetteDataRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TREraseAnisetteDataResponse.h">TREraseAnisetteDataResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRErrorResponse.h">TRErrorResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TREventMessage.h">TREventMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRFetchAnisetteDataRequest.h">TRFetchAnisetteDataRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRFetchAnisetteDataResponse.h">TRFetchAnisetteDataResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRHandshakeOperation.h">TRHandshakeOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRHandshakeOperationHandler.h">TRHandshakeOperationHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRHandshakeRequest.h">TRHandshakeRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRHandshakeResponse.h">TRHandshakeResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRHeartbeatRequest.h">TRHeartbeatRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRHeartbeatResponse.h">TRHeartbeatResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRLegacyAnisetteDataRequest.h">TRLegacyAnisetteDataRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRLegacyAnisetteDataResponse.h">TRLegacyAnisetteDataResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRMessage.h">TRMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRMessageDecoder.h">TRMessageDecoder.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRMessageEncoder.h">TRMessageEncoder.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRNearbyDevice.h">TRNearbyDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRNearbyDeviceAdvertiser.h">TRNearbyDeviceAdvertiser.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRNearbyDeviceScanner.h">TRNearbyDeviceScanner.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRNetworkOperation.h">TRNetworkOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRNetworkOperationHandler.h">TRNetworkOperationHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TROperation.h">TROperation.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TROperationQueue.h">TROperationQueue.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRProvisionAnisetteDataRequest.h">TRProvisionAnisetteDataRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRProvisionAnisetteDataResponse.h">TRProvisionAnisetteDataResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRProxyAuthOperation.h">TRProxyAuthOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRProxyAuthOperationHandler.h">TRProxyAuthOperationHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRRequestMessage.h">TRRequestMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRResponseMessage.h">TRResponseMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRServerConnection.h">TRServerConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRSession.h">TRSession.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRSetupActivationRequest.h">TRSetupActivationRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRSetupActivationResponse.h">TRSetupActivationResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRSetupAuthenticationResponse.h">TRSetupAuthenticationResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRSetupCompanionAuthenticationRequest.h">TRSetupCompanionAuthenticationRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRSetupCompletionRequest.h">TRSetupCompletionRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRSetupCompletionResponse.h">TRSetupCompletionResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRSetupConfigurationOperation.h">TRSetupConfigurationOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRSetupConfigurationOperationHandler.h">TRSetupConfigurationOperationHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRSetupConfigurationRequest.h">TRSetupConfigurationRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRSetupConfigurationResponse.h">TRSetupConfigurationResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRSetupHandler.h">TRSetupHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRSetupNetworkRequest.h">TRSetupNetworkRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRSetupNetworkResponse.h">TRSetupNetworkResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRSetupProxyAuthenticationRequest.h">TRSetupProxyAuthenticationRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRSetupProxyDeviceRequest.h">TRSetupProxyDeviceRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRSetupProxyDeviceResponse.h">TRSetupProxyDeviceResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRSetupWorkflow.h">TRSetupWorkflow.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRSyncAnisetteDataRequest.h">TRSyncAnisetteDataRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRSyncAnisetteDataResponse.h">TRSyncAnisetteDataResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRTransferBrowser.h">TRTransferBrowser.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRTransferServer.h">TRTransferServer.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/TRUserNotificationManager.h">TRUserNotificationManager.h</A>
+<A HREF="/tree/PrivateFrameworks/TouchRemote.framework/_TRUserNotification.h">_TRUserNotification.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

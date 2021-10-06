@@ -1,0 +1,174 @@
+<HTML>
+<HEAD>
+<TITLE>TextInput.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/TextInput.framework
+116 classes
+
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIAccessibilityClient.h">TIAccessibilityClient.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIAggdReporter.h">TIAggdReporter.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIAssistantSettings.h">TIAssistantSettings.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIAutocorrectionList.h">TIAutocorrectionList.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIAutofill.h">TIAutofill.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIAutoshiftController.h">TIAutoshiftController.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TICandidateRequestToken.h">TICandidateRequestToken.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TICharacterSetDescription.h">TICharacterSetDescription.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIChineseShared.h">TIChineseShared.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TICompositeMecabraCandidate.h">TICompositeMecabraCandidate.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIDocumentState.h">TIDocumentState.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIFacemarkSorter.h">TIFacemarkSorter.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIHandwritingCandidate.h">TIHandwritingCandidate.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIHandwritingStrokes.h">TIHandwritingStrokes.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIHardwareKeyboardLayout.h">TIHardwareKeyboardLayout.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIImageCacheClient.h">TIImageCacheClient.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIImageCacheItem.h">TIImageCacheItem.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIInputContextHistory.h">TIInputContextHistory.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIInputModeController.h">TIInputModeController.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyEventMap.h">TIKeyEventMap.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyEventMapHindiTransliteration.h">TIKeyEventMapHindiTransliteration.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyEventMap_zh.h">TIKeyEventMap_zh.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyEventMap_zh_Hans_Pinyin.h">TIKeyEventMap_zh_Hans_Pinyin.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyEventMap_zh_Hans_Stroke.h">TIKeyEventMap_zh_Hans_Stroke.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyEventMap_zh_Hant_Cangjie.h">TIKeyEventMap_zh_Hant_Cangjie.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyEventMap_zh_Hant_Pinyin.h">TIKeyEventMap_zh_Hant_Pinyin.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyEventMap_zh_Hant_Stroke.h">TIKeyEventMap_zh_Hant_Stroke.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyEventMap_zh_Hant_Zhuyin.h">TIKeyEventMap_zh_Hant_Zhuyin.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyEventMap_zh_Phonetic.h">TIKeyEventMap_zh_Phonetic.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyEventMap_zh_Stroke.h">TIKeyEventMap_zh_Stroke.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyboardBehaviorState.h">TIKeyboardBehaviorState.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyboardBehaviors.h">TIKeyboardBehaviors.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyboardBehaviors_Autocorrect.h">TIKeyboardBehaviors_Autocorrect.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyboardBehaviors_Cangjie.h">TIKeyboardBehaviors_Cangjie.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyboardBehaviors_Handwriting.h">TIKeyboardBehaviors_Handwriting.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyboardBehaviors_Japanese.h">TIKeyboardBehaviors_Japanese.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyboardBehaviors_Pinyin.h">TIKeyboardBehaviors_Pinyin.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyboardBehaviors_ShapeBased.h">TIKeyboardBehaviors_ShapeBased.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyboardBehaviors_Simple.h">TIKeyboardBehaviors_Simple.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyboardBehaviors_Thai.h">TIKeyboardBehaviors_Thai.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyboardBehaviors_WaitingForCandidates.h">TIKeyboardBehaviors_WaitingForCandidates.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyboardBehaviors_Zhuyin.h">TIKeyboardBehaviors_Zhuyin.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyboardCandidate.h">TIKeyboardCandidate.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyboardCandidateGroup.h">TIKeyboardCandidateGroup.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyboardCandidateResultSet.h">TIKeyboardCandidateResultSet.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyboardCandidateResultSetCoder.h">TIKeyboardCandidateResultSetCoder.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyboardCandidateSingle.h">TIKeyboardCandidateSingle.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyboardConfiguration.h">TIKeyboardConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyboardInput.h">TIKeyboardInput.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyboardInputManagerState.h">TIKeyboardInputManagerState.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyboardInputManagerStub.h">TIKeyboardInputManagerStub.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyboardIntermediateText.h">TIKeyboardIntermediateText.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyboardKeyBehaviors.h">TIKeyboardKeyBehaviors.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyboardLayout.h">TIKeyboardLayout.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyboardLayoutFactory.h">TIKeyboardLayoutFactory.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyboardLayoutState.h">TIKeyboardLayoutState.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyboardOutput.h">TIKeyboardOutput.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyboardSecureCandidateLayoutTraits.h">TIKeyboardSecureCandidateLayoutTraits.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyboardSecureCandidateRGBColor.h">TIKeyboardSecureCandidateRGBColor.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyboardSecureCandidateRenderTraits.h">TIKeyboardSecureCandidateRenderTraits.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyboardSecureCandidateTextTraits.h">TIKeyboardSecureCandidateTextTraits.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyboardState.h">TIKeyboardState.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIKeyboardTouchEvent.h">TIKeyboardTouchEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TILexicon.h">TILexicon.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TILexiconEntry.h">TILexiconEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIMecabraCandidate.h">TIMecabraCandidate.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIMecabraFacemarkCandidate.h">TIMecabraFacemarkCandidate.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIMutableCharacterSetDescription.h">TIMutableCharacterSetDescription.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIPinyinDisambiguationCandidate.h">TIPinyinDisambiguationCandidate.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIPreferencesController.h">TIPreferencesController.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIPreferencesControllerClient.h">TIPreferencesControllerClient.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIPreferencesControllerService.h">TIPreferencesControllerService.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIPreferencesControllerServiceHandler.h">TIPreferencesControllerServiceHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIRecentInputs.h">TIRecentInputs.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIResponseKitTrainer.h">TIResponseKitTrainer.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIRollingLog.h">TIRollingLog.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIShortcutConversionCandidate.h">TIShortcutConversionCandidate.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TISmartInsertDeleteController.h">TISmartInsertDeleteController.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TISmartPunctuationController.h">TISmartPunctuationController.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TISmartPunctuationOptions.h">TISmartPunctuationOptions.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TITextInputTraits.h">TITextInputTraits.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TITypologyLog.h">TITypologyLog.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TITypologyLogArchiverDelegate.h">TITypologyLogArchiverDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TITypologyRecord.h">TITypologyRecord.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TITypologyRecordAcceptedCandidate.h">TITypologyRecordAcceptedCandidate.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TITypologyRecordAutocorrections.h">TITypologyRecordAutocorrections.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TITypologyRecordCandidateRejected.h">TITypologyRecordCandidateRejected.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TITypologyRecordCandidateResultSet.h">TITypologyRecordCandidateResultSet.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TITypologyRecordHitTest.h">TITypologyRecordHitTest.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TITypologyRecordKeyboardInput.h">TITypologyRecordKeyboardInput.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TITypologyRecordLastAcceptedCandidateCorrected.h">TITypologyRecordLastAcceptedCandidateCorrected.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TITypologyRecordPhraseBoundaryAdjustment.h">TITypologyRecordPhraseBoundaryAdjustment.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TITypologyRecordRefinements.h">TITypologyRecordRefinements.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TITypologyRecordReplacements.h">TITypologyRecordReplacements.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TITypologyRecordSetOriginalInput.h">TITypologyRecordSetOriginalInput.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TITypologyRecordSkipHitTest.h">TITypologyRecordSkipHitTest.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TITypologyRecordSync.h">TITypologyRecordSync.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TITypologyRecordTextAccepted.h">TITypologyRecordTextAccepted.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TITypologyStatistic.h">TITypologyStatistic.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TITypologyStatisticAutocorrectionListUI.h">TITypologyStatisticAutocorrectionListUI.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TITypologyStatisticBasicCounts.h">TITypologyStatisticBasicCounts.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TITypologyStatisticComposite.h">TITypologyStatisticComposite.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TITypologyStatisticCurrentAutocorrections.h">TITypologyStatisticCurrentAutocorrections.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TITypologyStatisticRankCandidatesAccepted.h">TITypologyStatisticRankCandidatesAccepted.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TITypologyStatisticTimeElapsed.h">TITypologyStatisticTimeElapsed.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TITypologyStatisticTypingSpeed.h">TITypologyStatisticTypingSpeed.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TITypologyTimer.h">TITypologyTimer.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIUserDictionaryEntryValue.h">TIUserDictionaryEntryValue.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIUserDictionaryTransaction.h">TIUserDictionaryTransaction.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIUserDictionaryWord.h">TIUserDictionaryWord.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIWordTokenizer.h">TIWordTokenizer.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/TIZephyrCandidate.h">TIZephyrCandidate.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/_TIInputContextEntry.h">_TIInputContextEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/_TIKeyboardSecureCandidate.h">_TIKeyboardSecureCandidate.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/_TIPreference.h">_TIPreference.h</A>
+<A HREF="/tree/PrivateFrameworks/TextInput.framework/_TIPreferenceDomain.h">_TIPreferenceDomain.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

@@ -1,0 +1,112 @@
+<HTML>
+<HEAD>
+<TITLE>WiFiKit.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/WiFiKit.framework
+54 classes
+
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFANQPQueryResponse.h">WFANQPQueryResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFCarPlayDisablePromptOperation.h">WFCarPlayDisablePromptOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFClient.h">WFClient.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFControlCenterStateMonitor.h">WFControlCenterStateMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFEnterpriseJoinOperation.h">WFEnterpriseJoinOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFEnterpriseUserPromptOperation.h">WFEnterpriseUserPromptOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFGasOperation.h">WFGasOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFGasQueryController.h">WFGasQueryController.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFGasQueryProxy.h">WFGasQueryProxy.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFGetSettingsOperation.h">WFGetSettingsOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFHealthIssueOverrides.h">WFHealthIssueOverrides.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFHealthManager.h">WFHealthManager.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFHealthUIEvent.h">WFHealthUIEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFHotspotDevice.h">WFHotspotDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFHotspotHelperNetwork.h">WFHotspotHelperNetwork.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFHotspotInterface.h">WFHotspotInterface.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFHotspotProfile.h">WFHotspotProfile.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFIPMonitor.h">WFIPMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFInterface.h">WFInterface.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFJoinOperation.h">WFJoinOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFJoinProxy.h">WFJoinProxy.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFKnownNetworkStore.h">WFKnownNetworkStore.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFKnownNetworksListController.h">WFKnownNetworksListController.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFLinkQuality.h">WFLinkQuality.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFMISDisablePromptOperation.h">WFMISDisablePromptOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFMetricsManager.h">WFMetricsManager.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFMutableNetworkProfile.h">WFMutableNetworkProfile.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFNetworkListController.h">WFNetworkListController.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFNetworkProfile.h">WFNetworkProfile.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFNetworkScanRecord.h">WFNetworkScanRecord.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFOperation.h">WFOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFPasswordOperation.h">WFPasswordOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFProxyKeychainOperation.h">WFProxyKeychainOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFSaveLogsOperation.h">WFSaveLogsOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFSaveSettingsOperation.h">WFSaveSettingsOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFScanChannel.h">WFScanChannel.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFScanManager.h">WFScanManager.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFScanOperation.h">WFScanOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFScanRequest.h">WFScanRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFSettingsController.h">WFSettingsController.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFSettingsDNS.h">WFSettingsDNS.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFSettingsIPV4.h">WFSettingsIPV4.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFSettingsIPV6.h">WFSettingsIPV6.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFSettingsProxy.h">WFSettingsProxy.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFStubInterface.h">WFStubInterface.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFTrustCertificateOperation.h">WFTrustCertificateOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFUnconfiguredJoinOperation.h">WFUnconfiguredJoinOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFUserConfigureEvent.h">WFUserConfigureEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFUserEvent.h">WFUserEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFUserJoinEvent.h">WFUserJoinEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFUserPromptOperation.h">WFUserPromptOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFUserSuppliedNetwork.h">WFUserSuppliedNetwork.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFWAPICertificatePromptOperation.h">WFWAPICertificatePromptOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/WiFiKit.framework/WFWiFiStateMonitor.h">WFWiFiStateMonitor.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

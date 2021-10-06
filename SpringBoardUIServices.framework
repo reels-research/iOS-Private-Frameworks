@@ -1,0 +1,140 @@
+<HTML>
+<HEAD>
+<TITLE>SpringBoardUIServices.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/SpringBoardUIServices.framework
+82 classes
+
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBBlackBackdropSettings.h">SBBlackBackdropSettings.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBEmptyButtonView.h">SBEmptyButtonView.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBInteractionPassThroughView.h">SBInteractionPassThroughView.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBLightPasscodeNumberPadButton.h">SBLightPasscodeNumberPadButton.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBLockOverlayStyleProperties.h">SBLockOverlayStyleProperties.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBLockOverlayStylePropertiesFactory.h">SBLockOverlayStylePropertiesFactory.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBNumberPadWithDelegate.h">SBNumberPadWithDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBPasscodeKeyboardAnimator.h">SBPasscodeKeyboardAnimator.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBPasscodeNumberPadButton.h">SBPasscodeNumberPadButton.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBSUICarDisplayNowPlayingStateContext.h">SBSUICarDisplayNowPlayingStateContext.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBSUICarDisplayNowPlayingViewController.h">SBSUICarDisplayNowPlayingViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBSUIEffectsSegmentedControl.h">SBSUIEffectsSegmentedControl.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBSUILoginUISceneClientSettings.h">SBSUILoginUISceneClientSettings.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBSUILoginUISceneClientSettingsDiffInspector.h">SBSUILoginUISceneClientSettingsDiffInspector.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBSUILoginUISceneSpecification.h">SBSUILoginUISceneSpecification.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBSUIMutableLoginUISceneClientSettings.h">SBSUIMutableLoginUISceneClientSettings.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBSUIRemoteAlertItemContentViewController.h">SBSUIRemoteAlertItemContentViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBSUIWallpaperPreviewView.h">SBSUIWallpaperPreviewView.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBSUIWallpaperPreviewViewController.h">SBSUIWallpaperPreviewViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBSimplePasscodeEntryFieldButton.h">SBSimplePasscodeEntryFieldButton.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIAlphanumericPasscodeEntryField.h">SBUIAlphanumericPasscodeEntryField.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIAppleLogoView.h">SBUIAppleLogoView.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIBiometricResource.h">SBUIBiometricResource.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIButton.h">SBUIButton.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUICAPackageView.h">SBUICAPackageView.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUICallToActionLabel.h">SBUICallToActionLabel.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIEmergencyCallHostViewController.h">SBUIEmergencyCallHostViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIEmergencyCallServiceViewController.h">SBUIEmergencyCallServiceViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIExternalPreferences.h">SBUIExternalPreferences.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIFaceIDCameraGlyphView.h">SBUIFaceIDCameraGlyphView.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIFaceIDCoachingView.h">SBUIFaceIDCoachingView.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIInteractionForwardingView.h">SBUIInteractionForwardingView.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIKeyboardEnablementManager.h">SBUIKeyboardEnablementManager.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUILegibilityLabel.h">SBUILegibilityLabel.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUILegibilityView.h">SBUILegibilityView.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUILockOverlayView.h">SBUILockOverlayView.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUILongNumericPasscodeEntryField.h">SBUILongNumericPasscodeEntryField.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUINumericPasscodeEntryFieldBase.h">SBUINumericPasscodeEntryFieldBase.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIPasscodeBiometricAuthenticationView.h">SBUIPasscodeBiometricAuthenticationView.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIPasscodeBiometricResource.h">SBUIPasscodeBiometricResource.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIPasscodeEntryField.h">SBUIPasscodeEntryField.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIPasscodeLockNumberPad.h">SBUIPasscodeLockNumberPad.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIPasscodeLockViewBase.h">SBUIPasscodeLockViewBase.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIPasscodeLockViewFactory.h">SBUIPasscodeLockViewFactory.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIPasscodeLockViewInstallTonightLongNumericKeypad.h">SBUIPasscodeLockViewInstallTonightLongNumericKeypad.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIPasscodeLockViewInstallTonightSimpleFixedDigitKeypad.h">SBUIPasscodeLockViewInstallTonightSimpleFixedDigitKeypad.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIPasscodeLockViewInstallTonightWithKeyboard.h">SBUIPasscodeLockViewInstallTonightWithKeyboard.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIPasscodeLockViewLongNumericKeypad.h">SBUIPasscodeLockViewLongNumericKeypad.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIPasscodeLockViewSimpleFixedDigitKeypad.h">SBUIPasscodeLockViewSimpleFixedDigitKeypad.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIPasscodeLockViewWithKeyboard.h">SBUIPasscodeLockViewWithKeyboard.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIPasscodeLockViewWithKeypad.h">SBUIPasscodeLockViewWithKeypad.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIPasscodePillButton.h">SBUIPasscodePillButton.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIPasscodeTextField.h">SBUIPasscodeTextField.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIPopoverExtensionHostViewController.h">SBUIPopoverExtensionHostViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIPopoverExtensionRemoteViewController.h">SBUIPopoverExtensionRemoteViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIPowerDownView.h">SBUIPowerDownView.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIPowerDownViewController.h">SBUIPowerDownViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIPowerDownViewControllerFactory.h">SBUIPowerDownViewControllerFactory.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIPreciseClockTimer.h">SBUIPreciseClockTimer.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIProudLockContainerViewController.h">SBUIProudLockContainerViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIProudLockIconView.h">SBUIProudLockIconView.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIRemoteAlertButtonAction.h">SBUIRemoteAlertButtonAction.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIRemoteAlertButtonActionResponse.h">SBUIRemoteAlertButtonActionResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIRemoteAlertIdleTimerSettings.h">SBUIRemoteAlertIdleTimerSettings.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIRemoteAlertMaterialDescriptor.h">SBUIRemoteAlertMaterialDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIRemoteAlertServiceViewController.h">SBUIRemoteAlertServiceViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIRingViewLabelButton.h">SBUIRingViewLabelButton.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIShapeView.h">SBUIShapeView.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUISimpleFixedDigitPasscodeEntryField.h">SBUISimpleFixedDigitPasscodeEntryField.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUISizeObservingView.h">SBUISizeObservingView.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBUIVibrantButton.h">SBUIVibrantButton.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SBWhiteBackdropSettings.h">SBWhiteBackdropSettings.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices.h">SpringBoardUIServices.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/UIResizableView.h">UIResizableView.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/_SBUIBiometricKitInterface.h">_SBUIBiometricKitInterface.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/_SBUIBiometricKitInterfaceOperationStateTracker.h">_SBUIBiometricKitInterfaceOperationStateTracker.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/_SBUIBiometricMatchingAssertion.h">_SBUIBiometricMatchingAssertion.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/_SBUIBiometricOperationAssertion.h">_SBUIBiometricOperationAssertion.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/_SBUIPopoverExtensionContext.h">_SBUIPopoverExtensionContext.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/_SBUISimulatedLockoutAssertion.h">_SBUISimulatedLockoutAssertion.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/_SBUISwitcherPageServiceViewController.h">_SBUISwitcherPageServiceViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/SpringBoardUIServices.framework/_SBUIWidgetViewController.h">_SBUIWidgetViewController.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

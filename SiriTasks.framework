@@ -1,0 +1,110 @@
+<HTML>
+<HEAD>
+<TITLE>SiriTasks.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/SiriTasks.framework
+52 classes
+
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STAlarmAction.h">STAlarmAction.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STAlarmModification.h">STAlarmModification.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STAlarmShowAlarmAndPerformActionRequest.h">STAlarmShowAlarmAndPerformActionRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STCreateAlarmAction.h">STCreateAlarmAction.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STDeleteAlarmAction.h">STDeleteAlarmAction.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STEmailMessage.h">STEmailMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STGenericIntent.h">STGenericIntent.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STGenericIntentDateRange.h">STGenericIntentDateRange.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STGenericIntentGroup.h">STGenericIntentGroup.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STGenericIntentHelper.h">STGenericIntentHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STGenericIntentLocation.h">STGenericIntentLocation.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STGenericIntentPerson.h">STGenericIntentPerson.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STGenericIntentRequest.h">STGenericIntentRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STGenericIntentResponse.h">STGenericIntentResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STGenericIntentTopic.h">STGenericIntentTopic.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STMapItem.h">STMapItem.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STMapViewport.h">STMapViewport.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STMapViewportVertex.h">STMapViewportVertex.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STMediaChannel.h">STMediaChannel.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STPromptManeuverRequest.h">STPromptManeuverRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STReminderListObject.h">STReminderListObject.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STSendDraftMessageRequest.h">STSendDraftMessageRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STSendEmailRequest.h">STSendEmailRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STShowActivityRequest.h">STShowActivityRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STShowAlarmAction.h">STShowAlarmAction.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STShowChannelRequest.h">STShowChannelRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STShowDailyWeatherForecastRequest.h">STShowDailyWeatherForecastRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STShowDraftMessageRequest.h">STShowDraftMessageRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STShowDraftMessageUsageResult.h">STShowDraftMessageUsageResult.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STShowHourlyWeatherForecastRequest.h">STShowHourlyWeatherForecastRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STShowMapPointRequest.h">STShowMapPointRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STShowMapsSearchResultsRequest.h">STShowMapsSearchResultsRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STShowMessageRequest.h">STShowMessageRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STShowStockOverviewRequest.h">STShowStockOverviewRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STShowWeatherConditionsRequest.h">STShowWeatherConditionsRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STShowWeatherCurrentConditionsRequest.h">STShowWeatherCurrentConditionsRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STShowWeatherForecastRequest.h">STShowWeatherForecastRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STStartNavigationRequest.h">STStartNavigationRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STStartWorkoutRequest.h">STStartWorkoutRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STStopNavigationRequest.h">STStopNavigationRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STStopwatchShowAndPerformStopwatchAction.h">STStopwatchShowAndPerformStopwatchAction.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STSurfPaymentAction.h">STSurfPaymentAction.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STTemperature.h">STTemperature.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STTimerShowTimerAndPerformAction.h">STTimerShowTimerAndPerformAction.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STUpdateAlarmAction.h">STUpdateAlarmAction.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STUpdateWatchListRequest.h">STUpdateWatchListRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STWatchFace.h">STWatchFace.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STWeatherAttributes.h">STWeatherAttributes.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STWeatherCurrentConditions.h">STWeatherCurrentConditions.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STWeatherHourlyForecast.h">STWeatherHourlyForecast.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STWeatherUnits.h">STWeatherUnits.h</A>
+<A HREF="/tree/PrivateFrameworks/SiriTasks.framework/STWorkoutSetStateRequest.h">STWorkoutSetStateRequest.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

@@ -1,0 +1,145 @@
+<HTML>
+<HEAD>
+<TITLE>Stocks.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/Stocks.framework
+87 classes
+
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/ChartHUDView.h">ChartHUDView.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/ChartIntervalButton.h">ChartIntervalButton.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/ChartIntervalButtonRow.h">ChartIntervalButtonRow.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/ChartLabelInfo.h">ChartLabelInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/ChartLabelInfoManager.h">ChartLabelInfoManager.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/ChartTitleLabel.h">ChartTitleLabel.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/ChartUpdater.h">ChartUpdater.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/DashedLineView.h">DashedLineView.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/Exchange.h">Exchange.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/ExchangeManager.h">ExchangeManager.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/GraphRenderOperation.h">GraphRenderOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/GraphRenderer.h">GraphRenderer.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/HUDTouchInfo.h">HUDTouchInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/LabelSequenceView.h">LabelSequenceView.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/LineGraphView.h">LineGraphView.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/LoadingLabel.h">LoadingLabel.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/NetPreferences.h">NetPreferences.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/NewsUpdater.h">NewsUpdater.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/PricePopoverBar.h">PricePopoverBar.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/SCKAsyncBlockOperation.h">SCKAsyncBlockOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/SCKAsyncSerialQueue.h">SCKAsyncSerialQueue.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/SCKDatabase.h">SCKDatabase.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/SCKDatabaseJSONStore.h">SCKDatabaseJSONStore.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/SCKDatabaseMemoryStore.h">SCKDatabaseMemoryStore.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/SCKDatabasePollingCondition.h">SCKDatabasePollingCondition.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/SCKDatabaseSchema.h">SCKDatabaseSchema.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/SCKFauxDatabaseStoreCoordinator.h">SCKFauxDatabaseStoreCoordinator.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/SCKOperationThrottler.h">SCKOperationThrottler.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/SCKRecordFieldSchema.h">SCKRecordFieldSchema.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/SCKRecordSchema.h">SCKRecordSchema.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/SCKStartupQueue.h">SCKStartupQueue.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/SCKStubContainer.h">SCKStubContainer.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/SCKTimedOperationThrottler.h">SCKTimedOperationThrottler.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/SCKZone.h">SCKZone.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/SCKZoneDiff.h">SCKZoneDiff.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/SCKZoneJSONStore.h">SCKZoneJSONStore.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/SCKZoneMemoryStore.h">SCKZoneMemoryStore.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/SCKZoneModificationSilo.h">SCKZoneModificationSilo.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/SCKZoneSchema.h">SCKZoneSchema.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/SCKZoneSnapshot.h">SCKZoneSnapshot.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/SCWatchedStock.h">SCWatchedStock.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/SCWatchlist.h">SCWatchlist.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/SCWatchlistAddDefaultSymbolsCommand.h">SCWatchlistAddDefaultSymbolsCommand.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/SCWatchlistAddSymbolCommand.h">SCWatchlistAddSymbolCommand.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/SCWatchlistAddSymbolsCommand.h">SCWatchlistAddSymbolsCommand.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/SCWatchlistDefaults.h">SCWatchlistDefaults.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/SCWatchlistDiff.h">SCWatchlistDiff.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/SCWatchlistInlineDefaultsProvider.h">SCWatchlistInlineDefaultsProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/SCWatchlistMergeHandler.h">SCWatchlistMergeHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/SCWatchlistRemoveSymbolCommand.h">SCWatchlistRemoveSymbolCommand.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/SCWatchlistReorderSymbol2Command.h">SCWatchlistReorderSymbol2Command.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/SCWatchlistReorderSymbolCommand.h">SCWatchlistReorderSymbolCommand.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/SCWatchlistReplaceSymbolCommand.h">SCWatchlistReplaceSymbolCommand.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/SPChartView.h">SPChartView.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/Stock.h">Stock.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/StockChartData.h">StockChartData.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/StockChartDisplayMode.h">StockChartDisplayMode.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/StockChartView.h">StockChartView.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/StockDataFormatter.h">StockDataFormatter.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/StockDataSource.h">StockDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/StockFetcher.h">StockFetcher.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/StockGraphImageSet.h">StockGraphImageSet.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/StockGraphView.h">StockGraphView.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/StockManager.h">StockManager.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/StockNewsItem.h">StockNewsItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/StockNewsItemCollection.h">StockNewsItemCollection.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/StockPlatterViewController.h">StockPlatterViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/StockUpdateManager.h">StockUpdateManager.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/StockUpdater.h">StockUpdater.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/StocksBundles.h">StocksBundles.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/StocksLayout.h">StocksLayout.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/StocksListBoxView.h">StocksListBoxView.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/StocksListTableViewCell.h">StocksListTableViewCell.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/StocksLogging.h">StocksLogging.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/StocksOpenURLHelper.h">StocksOpenURLHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/StocksPreferences.h">StocksPreferences.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/StocksStyle.h">StocksStyle.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/StocksTapDragGestureRecognizer.h">StocksTapDragGestureRecognizer.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/StocksUtilities.h">StocksUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/StringDrawingInfo.h">StringDrawingInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/SymbolValidator.h">SymbolValidator.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/TintedView.h">TintedView.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/VolumeGraphView.h">VolumeGraphView.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/YQLConstants.h">YQLConstants.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/YQLRequest.h">YQLRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/YahooDoppelganger.h">YahooDoppelganger.h</A>
+<A HREF="/tree/PrivateFrameworks/Stocks.framework/YahooResponseParser.h">YahooResponseParser.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>
